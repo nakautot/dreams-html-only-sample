@@ -1,15 +1,12 @@
 [{
     "id": 1,
-    "username": "nakautot",
-    "issenior": true
+    "username": "nakautot"
 }, {
     "id": 2,
-    "username": "krztnkho",
-    "issenior": true
+    "username": "krztnkho"
 }, {
     "id": 3,
-    "username": "Darbiol",
-    "issenior": true
+    "username": "Darbiol"
 }, {
     "id": 4,
     "username": "olryts"

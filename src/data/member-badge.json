@@ -1,0 +1,45 @@
+[{
+    "memberid": 1,
+    "badgeid": 1
+}, {
+    "memberid": 2,
+    "badgeid": 1
+}, {
+    "memberid": 3,
+    "badgeid": 1
+}, {
+    "memberid": 2,
+    "badgeid": 5
+},{
+    "memberid": 6,
+    "badgeid": 2,
+    "sprintid": 1
+},{
+    "memberid": 5,
+    "badgeid": 2,
+    "sprintid": 1
+},{
+    "memberid": 1,
+    "badgeid": 2,
+    "sprintid": 1
+},{
+    "memberid": 8,
+    "badgeid": 2,
+    "sprintid": 1
+},{
+    "memberid": 4,
+    "badgeid": 4,
+    "sprintid": 1
+},{
+    "memberid": 3,
+    "badgeid": 3,
+    "sprintid": 1
+},{
+    "memberid": 4,
+    "badgeid": 3,
+    "sprintid": 1
+},{
+    "memberid": 7,
+    "badgeid": 3,
+    "sprintid": 1
+}]

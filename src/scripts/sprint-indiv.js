@@ -9,10 +9,11 @@
         connectedCallback() {
             let shadowRoot = this.attachShadow({mode: 'open'});
             let name = this.attributes.name.value;
+            let icon = this.attributes.icon.value;
 
             tmpl.innerHTML = `
                 <span>
-                    <b>${name}</b>
+                    <b>${name}</b> <span>${icon}</span>
                 </span>
             `;
         

@@ -22,7 +22,7 @@
         renderPosts(members) {
             var mclass = this.attributes.mclass?.value || '';
 
-            this.innerHTML = members.map(member => `<div class="mui-panel ${mclass}"><member-indiv username="${member.username}" issenior="${member.issenior || ''}"></member-indiv></div>`).join('');
+            this.innerHTML = members.map(member => `<div class="mui-panel ${mclass}"><member-indiv uid="${member.id}" username="${member.username}"></member-indiv></div>`).join('');
         }
     });
 })();

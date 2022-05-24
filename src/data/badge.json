@@ -1,0 +1,31 @@
+[{
+    "id":1,
+    "badge":"Senior",
+    "icon":"⭐",
+    "description":"Tracks and Evaluates members"
+},{
+    "id":2,
+    "badge":"QA",
+    "icon":"🔍",
+    "description":"Assigned to prioritize test case creation and testing"
+},{
+    "id":3,
+    "badge":"Dev",
+    "icon":"🔧",
+    "description":"Assigned to prioritize Development, fixing and support"
+},{
+    "id":4,
+    "badge":"Perf Testing",
+    "icon":"📏",
+    "description":"Assess and Plan for app performance"
+},{
+    "id":5,
+    "badge":"Scrum Master",
+    "icon":"💖",
+    "description":"Directs the team to completing goals and removes blockers"
+},{
+    "id":6,
+    "badge":"Current Sprint",
+    "icon":"🚀",
+    "description":"indicates that this is the current sprint"
+}]

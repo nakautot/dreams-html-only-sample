@@ -9,14 +9,15 @@
         }
 
         async getModel() {
+            let badgeDict = await API.getBadgeDict();
             let sprint = await API.read("/dreams-html-only-sample/src/data/sprints.json");
-            this.renderPosts(sprint);
+            this.renderPosts({sprint, badgeDict});
         }
 
-        renderPosts(sprint) {
+        renderPosts({sprint, badgeDict}) {
             var mclass = this.attributes.mclass?.value || '';
 
-            this.innerHTML = sprint.map(sprint => `<div class="mui-panel ${mclass}"><sprint-indiv name="${sprint.name}"></sprint-indiv></div>`).join('');
+            this.innerHTML = sprint.map(sprint => `<div class="mui-panel ${mclass}"><sprint-indiv name="${sprint.name}" icon="${sprint.current?badgeDict[6].icon:''}"></sprint-indiv></div>`).join('');
         }
     });
 })();

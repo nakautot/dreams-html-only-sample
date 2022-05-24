@@ -1,0 +1,9 @@
+.header {
+    padding-top: 15px;
+}
+
+.member {
+    display: inline-block;
+    margin-right: 10px;
+    width: 80px;
+}

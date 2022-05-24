@@ -1,13 +1,27 @@
 <!doctype html>
 <html>
   <head>
-    <title>dreams-html-only-sample</title>
-    <meta name="description" content="Our first page">
-    <meta name="keywords" content="html tutorial template">
-    <script src="/dreams-html-only-sample/src/script.js"></script>
-    <link rel="stylesheet" href="/dreams-html-only-sample/src/style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <link href="/dreams-html-only-sample/src/styles/style.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
+    <script src="/dreams-html-only-sample/src/scripts/app.js" defer></script>
+    <script src="/dreams-html-only-sample/src/scripts/member-indiv.js" defer></script>
+    <script src="/dreams-html-only-sample/src/scripts/member-list.js" defer></script>    
   </head>
   <body>
-    <div id="json">json here</div>
+    <div class="mui-appbar">
+      <div class="mui-container-fluid">
+        <div class="header mui--text-headline">Dreams Stats</div>
+      </div>      
+    </div>
+    <div class="mui-container-fluid">
+      <div class="header mui--text-headline">Members</div>
+      <div class="mui-divider"></div>
+      <br />
+      <member-list mclass="member"></member-list>        
+    </div>
   </body>
 </html>

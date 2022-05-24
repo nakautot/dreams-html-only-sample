@@ -42,4 +42,32 @@
     "memberid": 7,
     "badgeid": 3,
     "sprintid": 1
+},{
+    "memberid": 3,
+    "badgeid": 3,
+    "sprintid": 2
+},{
+    "memberid": 8,
+    "badgeid": 3,
+    "sprintid": 2
+},{
+    "memberid": 7,
+    "badgeid": 3,
+    "sprintid": 2
+},{
+    "memberid": 6,
+    "badgeid": 2,
+    "sprintid": 2
+},{
+    "memberid": 5,
+    "badgeid": 2,
+    "sprintid": 2
+},{
+    "memberid": 4,
+    "badgeid": 2,
+    "sprintid": 2
+},{
+    "memberid": 1,
+    "badgeid": 2,
+    "sprintid": 2
 }]

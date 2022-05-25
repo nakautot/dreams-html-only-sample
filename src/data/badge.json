@@ -63,4 +63,9 @@
     "badge":"Not Done",
     "icon": "❎",
     "description":"Not completed"
+},{
+    "id":14,
+    "badge":"Story",
+    "icon": "🎫",
+    "description":"Feature Requests"
 }]

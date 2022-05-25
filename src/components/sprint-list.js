@@ -15,7 +15,7 @@
 
         renderPosts({sprints}) {
             this.innerHTML = sprints
-                .map(sprint => `<div class="mui-panel sprint"><sprint-indiv uid="${sprint}"></sprint-indiv></div>`)
+                .map(sprint => `<sprint-indiv uid="${sprint}"></sprint-indiv>`)
                 .join('');
         }
     });

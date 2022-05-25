@@ -68,4 +68,9 @@
     "badge":"Story",
     "icon": "🎫",
     "description":"Feature Requests"
+},{
+    "id":15,
+    "badge":"Support Request",
+    "icon": "🚧",
+    "description":"Change requests from CS"
 }]

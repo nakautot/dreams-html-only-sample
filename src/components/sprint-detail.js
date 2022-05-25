@@ -2,14 +2,25 @@
     customElements.define('sprint-detail', class extends HTMLElement {
         constructor() {
             super();
+            this.refreshView = this.refreshView.bind(this);
         }
 
         connectedCallback() {
             this.getModel();
+            window.addEventListener('change-sprint', this.refreshView);
+        }
+
+        disconnectedCallback() {
+            window.removeEventListener('change-sprint', this.refreshView);
+            super.disconnectedCallback && super.disconnectedCallback();
+        }
+
+        refreshView() {            
+            this.getModel();
         }
 
         async getModel() {
-            let sprintid = (await API.models.sprint.selectedSprint()) || (await API.models.sprint.currentSprint());
+            let sprintid = API.models.sprint.getSelectedSprint() || (await API.models.sprint.currentSprint());
             let sprint = await API.models.sprint.getById(sprintid);
             let stories = await API.models.story.getAll(sprintid);
 

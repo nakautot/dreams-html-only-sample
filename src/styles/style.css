@@ -23,11 +23,15 @@
 }
 
 .tasks .mui-divider {
-    margin-top: 2px;
-    margin-bottom: 2px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 .badges {
     text-align: right;
     cursor: context-menu;
+}
+
+.clickable {
+    cursor: pointer;
 }

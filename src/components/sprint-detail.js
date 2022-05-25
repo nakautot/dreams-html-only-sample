@@ -1,6 +1,4 @@
 (function () {
-    let tmpl = document.createElement('template');    
-
     customElements.define('sprint-detail', class extends HTMLElement {
         constructor() {
             super();

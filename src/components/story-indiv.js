@@ -1,6 +1,4 @@
 (function () {
-    let tmpl = document.createElement('template');    
-
     customElements.define('story-indiv', class extends HTMLElement {
         constructor() {
             super();
@@ -17,6 +15,7 @@
         }
 
         renderPosts({story}) {
+            let tasks = (story.members || []).map(m => `<task-indiv model='${JSON.stringify(m)}'></task-indiv>`).join('<div class="mui-divider"></div>');
             this.innerHTML = `
                 <div class="mui-panel story">
                     <div class="mui-container-fluid">
@@ -25,7 +24,7 @@
                                 <badge-icon class="story-icon" uid="${story.icon}"></badge-icon>
                                 <div class="mui--text-subhead"><a href="https://frontlinetechnologies.atlassian.net/browse/${story.ticket}">${story.ticket}</a></div>                                
                             </div>
-                            <div class="mui-col-md-6">test</div>                            
+                            <div class="mui-col-md-6 tasks">${tasks}</div>
                         </div>
                     </div>
                 </div>

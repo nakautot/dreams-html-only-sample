@@ -17,3 +17,12 @@
 .story-icon {
     font-size: 70px;
 }
+
+.tasks {
+    font-size: 20px;
+}
+
+.tasks .mui-divider {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}

@@ -53,4 +53,14 @@
     "badge":"Bug",
     "icon": "🐛",
     "description":"Issue that made it to Production environment"
+},{
+    "id":12,
+    "badge":"Done",
+    "icon": "✅",
+    "description":"Completed"
+},{
+    "id":13,
+    "badge":"Not Done",
+    "icon": "❎",
+    "description":"Not completed"
 }]

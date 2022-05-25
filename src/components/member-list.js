@@ -1,10 +1,4 @@
 (function () {
-    /*tmpl.innerHTML = `
-        <style>:host { ... }</style> <!-- look ma, scoped styles -->
-        <b>I'm in shadow dom!</b>
-        <slot></slot>
-    `;*/
-
     customElements.define('member-list', class extends HTMLElement {
         constructor() {
             super();

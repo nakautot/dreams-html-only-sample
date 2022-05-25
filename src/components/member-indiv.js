@@ -7,25 +7,23 @@
         }
 
         connectedCallback() {
-            this.getModel();
-        }
-
-        async getModel() {
-            let badgeDict = await API.getBadgeDict();
-            let currentSprint = await API.currentSprint();
-            let memberBadge = await API.read("/dreams-html-only-sample/src/data/member-badge.json");            
-            this.renderPosts({badgeDict, memberBadge, currentSprint});
-        }
-
-        renderPosts({badgeDict, memberBadge, currentSprint}) {
-            let shadowRoot = this.attachShadow({mode: 'open'});
-            let username = this.attributes.username.value;
             let uid = this.attributes.uid.value;
+            this.getModel({uid});
+        }
+
+        async getModel({uid}) {
+            await API.models.badge.fetch();
+            let currentSprint = await API.models.sprint.currentSprint();
+            let memberBadge = await API.models.memberBadge.getById(uid, currentSprint);
+            let member = await API.models.member.getById(uid);
+            this.renderPosts({memberBadge, member});
+        }
+
+        renderPosts({memberBadge, member: {username}}) {
+            let shadowRoot = this.attachShadow({mode: 'open'});
             
             let currbadges = memberBadge
-                .filter(m => m.memberid == uid)
-                .filter(m => !m.sprintid || m.sprintid == currentSprint)
-                .map(m => badgeDict[m.badgeid])
+                .map(m => API.models.badge.badgeDict[m.badgeid])
                 .map(m => `<span title="${m.badge}: ${m.description}">${m.icon}</span>`)
                 .join('');
 

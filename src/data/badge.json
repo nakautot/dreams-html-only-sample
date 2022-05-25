@@ -28,4 +28,14 @@
     "badge":"Current Sprint",
     "icon":"🚀",
     "description":"indicates that this is the current sprint"
+},{
+    "id":7,
+    "badge":"Root Cause Analysis",
+    "icon":"🩺",
+    "description":"Identify the main cause of the defect"
+},{
+    "id":8,
+    "badge":"Test Case Creator",
+    "icon":"🚨",
+    "description":"Ensures that all scenarios are covered"
 }]

@@ -7,11 +7,20 @@
     <link href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
     <link href="/dreams-html-only-sample/src/styles/style.css" rel="stylesheet" type="text/css" />
     <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
-    <script src="/dreams-html-only-sample/src/scripts/app.js"></script>
-    <script src="/dreams-html-only-sample/src/scripts/member-indiv.js" defer></script>
-    <script src="/dreams-html-only-sample/src/scripts/member-list.js" defer></script>
-    <script src="/dreams-html-only-sample/src/scripts/sprint-indiv.js" defer></script>
-    <script src="/dreams-html-only-sample/src/scripts/sprint-list.js" defer></script>
+
+    <script src="/dreams-html-only-sample/src/app.js"></script>
+
+    <script src="/dreams-html-only-sample/src/models/badge.js" defer></script>
+    <script src="/dreams-html-only-sample/src/models/sprint.js" defer></script>
+    <script src="/dreams-html-only-sample/src/models/member-badge.js" defer></script>
+    <script src="/dreams-html-only-sample/src/models/member.js" defer></script>
+    <script src="/dreams-html-only-sample/src/models/story.js" defer></script>
+
+    <script src="/dreams-html-only-sample/src/components/member-indiv.js" defer></script>
+    <script src="/dreams-html-only-sample/src/components/member-list.js" defer></script>
+    <script src="/dreams-html-only-sample/src/components/sprint-indiv.js" defer></script>
+    <script src="/dreams-html-only-sample/src/components/sprint-list.js" defer></script>
+    <script src="/dreams-html-only-sample/src/components/sprint-detail.js" defer></script>
   </head>
   <body>
     <div class="mui-appbar">
@@ -23,11 +32,14 @@
       <div class="header mui--text-headline">Members</div>
       <div class="mui-divider"></div>
       <br />
-      <member-list mclass="member"></member-list>
+      <member-list></member-list>
       <div class="header mui--text-headline">Sprints</div>
       <div class="mui-divider"></div>
       <br />
-      <sprint-list mclass="sprint"></sprint-list>
+      <div class="mui-row">
+        <div class="mui-col-md-4"><sprint-list></sprint-list></div>
+        <div class="mui-col-md-8"><sprint-detail></sprint-detail></div>        
+      </div>      
     </div>
   </body>
 </html>

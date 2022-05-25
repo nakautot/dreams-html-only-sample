@@ -15,14 +15,14 @@
         }
 
         async getModel() {
-            let members = await API.read("/dreams-html-only-sample/src/data/members.json");
-            this.renderPosts(members);
+            let membersIds = await API.models.member.getAll();
+            this.renderPosts(membersIds);
         }
 
-        renderPosts(members) {
-            var mclass = this.attributes.mclass?.value || '';
-
-            this.innerHTML = members.map(member => `<div class="mui-panel ${mclass}"><member-indiv uid="${member.id}" username="${member.username}"></member-indiv></div>`).join('');
+        renderPosts(membersIds) {
+            this.innerHTML = membersIds
+                .map(membersId => `<div class="mui-panel member"><member-indiv uid="${membersId}"></member-indiv></div>`)
+                .join('');
         }
     });
 })();

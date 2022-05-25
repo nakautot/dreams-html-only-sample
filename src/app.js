@@ -1,6 +1,7 @@
 let API = {
     _cache: {},
-    _ts: (new Date()).getTime()
+    _ts: (new Date()).getTime(),
+    models: {}
 };
 
 (function () {
@@ -21,15 +22,5 @@ let API = {
             prev[curr[key]] = curr;
             return prev;
         }, {});
-    }
-
-    API.getBadgeDict = async function () {
-        let badge = await API.read("/dreams-html-only-sample/src/data/badge.json");
-        return API.group(badge, 'id');
-    }
-
-    API.currentSprint = async function () {
-        let sprint = await API.read("/dreams-html-only-sample/src/data/sprints.json");
-        return sprint.filter(m => m.current)[0].id;
     }
 })();

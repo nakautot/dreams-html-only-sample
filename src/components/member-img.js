@@ -2,6 +2,7 @@
     customElements.define('member-img', class extends HTMLElement {
         constructor() {
             super();
+            this._model = API.models.member;
         }
 
         connectedCallback() {
@@ -10,7 +11,7 @@
         }
 
         async getModel({uid}) {
-            let member = await API.models.member.getById(uid);      
+            let member = await this._model.getById(uid);      
             this.renderPosts({member});
         }
 

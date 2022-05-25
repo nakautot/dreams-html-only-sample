@@ -7,3 +7,13 @@
     margin-right: 10px;
     width: 80px;
 }
+
+.story {
+    display: inline-block;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.story-icon {
+    font-size: 70px;
+}

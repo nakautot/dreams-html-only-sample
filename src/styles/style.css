@@ -35,3 +35,7 @@
 .clickable {
     cursor: pointer;
 }
+
+.mui-col-md-2.mui--text-right {
+    font-weight: bolder;
+}

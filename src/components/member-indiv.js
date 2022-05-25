@@ -12,7 +12,6 @@
         }
 
         async getModel({uid}) {
-            await API.models.badge.fetch();
             let currentSprint = await API.models.sprint.currentSprint();
             let memberBadge = await API.models.memberBadge.getById(uid, currentSprint);
             let member = await API.models.member.getById(uid);
@@ -23,8 +22,7 @@
             let shadowRoot = this.attachShadow({mode: 'open'});
             
             let currbadges = memberBadge
-                .map(m => API.models.badge.badgeDict[m.badgeid])
-                .map(m => `<span title="${m.badge}: ${m.description}">${m.icon}</span>`)
+                .map(m => `<badge-icon uid="${m.badgeid}"></badge-icon>`)
                 .join('');
 
             tmpl.innerHTML = `

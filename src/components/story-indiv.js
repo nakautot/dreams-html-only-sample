@@ -22,7 +22,7 @@
                     <div class="mui-container-fluid">
                         <div class="mui-row">
                             <div class="mui-col-md-6">
-                                <div class="story-icon">${story.icon}</div>
+                                <badge-icon class="story-icon" uid="${story.icon}"></badge-icon>
                                 <div class="mui--text-subhead"><a href="https://frontlinetechnologies.atlassian.net/browse/${story.ticket}">${story.ticket}</a></div>                                
                             </div>
                             <div class="mui-col-md-6">test</div>                            

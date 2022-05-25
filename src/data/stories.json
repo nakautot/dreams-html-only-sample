@@ -1,7 +1,7 @@
 [{
     "id": 1,
     "ticket":"FLPG-18457",
-    "icon":"🐛",
+    "icon":11,
     "sprintid":1,
     "members":[{
         "id":4,

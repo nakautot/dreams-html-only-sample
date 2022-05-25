@@ -2,6 +2,7 @@
     customElements.define('badge-icon', class extends HTMLElement {
         constructor() {
             super();
+            this._model = API.models.badge;
         }
 
         connectedCallback() {
@@ -10,12 +11,12 @@
         }
 
         async getModel({uid}) {
-            await API.models.badge.fetch();            
+            await this._model.fetch();            
             this.renderPosts({uid});
         }
 
         renderPosts({uid}) {            
-            let badge = API.models.badge.badgeDict[uid];
+            let badge = this._model.badgeDict[uid];
             this.innerHTML = `<span title="${badge.badge}: ${badge.description}">${badge.icon}</span>`;
         }
     });

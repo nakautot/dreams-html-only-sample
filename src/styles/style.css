@@ -26,3 +26,8 @@
     margin-top: 2px;
     margin-bottom: 2px;
 }
+
+.badges {
+    text-align: right;
+    cursor: context-menu;
+}

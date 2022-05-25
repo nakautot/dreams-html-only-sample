@@ -1,6 +1,4 @@
 (function () {
-    let tmpl = document.createElement('template');    
-
     customElements.define('member-indiv', class extends HTMLElement {
         constructor() {
             super();
@@ -18,24 +16,19 @@
             this.renderPosts({memberBadge, member});
         }
 
-        renderPosts({memberBadge, member: {username}}) {
-            let shadowRoot = this.attachShadow({mode: 'open'});
-            
+        renderPosts({memberBadge, member: {username, id}}) {
             let currbadges = memberBadge
                 .map(m => `<badge-icon uid="${m.badgeid}"></badge-icon>`)
                 .join('');
 
-            tmpl.innerHTML = `
-                <style>.badges {text-align: right; cursor: context-menu;}</style>
+            this.innerHTML = `
                 <span>
-                    <div><img src="https://github.com/${username}.png?size=80" width="80" height="80" alt="nakautot"></div>
+                    <div><member-img uid="${id}" width="80" height="80"></member-img></div>
                     <div>${username}</div>
-                    <hr/>
+                    <div class="mui-divider"></div>
                     <div class="badges">&nbsp;${currbadges}</div>
                 </span>
             `;
-        
-            shadowRoot.appendChild(tmpl.content.cloneNode(true));
         }
     });
 })();

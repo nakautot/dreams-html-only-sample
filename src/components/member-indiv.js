@@ -2,6 +2,7 @@
     customElements.define('member-indiv', class extends HTMLElement {
         constructor() {
             super();
+            this._model = API.models.member;
         }
 
         connectedCallback() {
@@ -12,7 +13,7 @@
         async getModel({uid}) {
             let currentSprint = await API.models.sprint.currentSprint();
             let memberBadge = await API.models.memberBadge.getById(uid, currentSprint);
-            let member = await API.models.member.getById(uid);
+            let member = await this._model.getById(uid);
             this.renderPosts({memberBadge, member});
         }
 

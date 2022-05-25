@@ -15,9 +15,18 @@
         }
 
         renderPosts({sprints}) {
-            this.innerHTML = sprints
+            let list = sprints
                 .map(sprint => `<sprint-indiv uid="${sprint}"></sprint-indiv>`)
                 .join('');
+
+            this.innerHTML = `
+                <div class="header mui--text-headline">Sprints</div>
+                <div class="mui-divider"></div>
+                <br />
+                <div class="mui-row">
+                    <div class="mui-col-md-2">${list}</div>
+                    <div class="mui-col-md-10"><sprint-detail></sprint-detail></div>        
+                </div>`;
         }
     });
 })();

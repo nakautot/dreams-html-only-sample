@@ -25,7 +25,7 @@
                                 <badge-icon class="story-icon" uid="${story.icon}"></badge-icon>
                                 <div class="mui--text-subhead"><a href="https://frontlinetechnologies.atlassian.net/browse/${story.ticket}">${story.ticket}</a></div>                                
                             </div>
-                            <div class="mui-col-md-6 tasks">${tasks}</div>
+                            <div class="mui-col-md-6 tasks mui--text-right">${tasks}</div>
                         </div>
                     </div>
                 </div>

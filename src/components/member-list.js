@@ -2,6 +2,7 @@
     customElements.define('member-list', class extends HTMLElement {
         constructor() {
             super();
+            this._model = API.models.member;
         }
 
         connectedCallback() {
@@ -9,7 +10,7 @@
         }
 
         async getModel() {
-            let membersIds = await API.models.member.getAll();
+            let membersIds = await this._model.getAll();
             this.renderPosts(membersIds);
         }
 

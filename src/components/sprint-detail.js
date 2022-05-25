@@ -2,6 +2,7 @@
     customElements.define('sprint-detail', class extends HTMLElement {
         constructor() {
             super();
+            this._model = API.models.sprint;
             this.refreshView = this.refreshView.bind(this);
         }
 
@@ -20,8 +21,8 @@
         }
 
         async getModel() {
-            let sprintid = API.models.sprint.getSelectedSprint() || (await API.models.sprint.currentSprint());
-            let sprint = await API.models.sprint.getById(sprintid);
+            let sprintid = this._model.getSelectedSprint() || (await this._model.currentSprint());
+            let sprint = await this._model.getById(sprintid);
             let stories = await API.models.story.getAll(sprintid);
 
             this.renderPosts({sprint, stories});

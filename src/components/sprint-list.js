@@ -2,6 +2,7 @@
     customElements.define('sprint-list', class extends HTMLElement {
         constructor() {
             super();
+            this._model = API.models.sprint;
         }
 
         connectedCallback() {
@@ -9,7 +10,7 @@
         }
 
         async getModel() {
-            let sprints = await API.models.sprint.getAll();
+            let sprints = await this._model.getAll();
             this.renderPosts({sprints});
         }
 

@@ -1,7 +1,8 @@
 (function () {
     customElements.define('story-indiv', class extends HTMLElement {
         constructor() {
-            super();            
+            super();
+            this._model = API.models.story;
         }
 
         connectedCallback() {
@@ -10,7 +11,7 @@
         }        
 
         async getModel({uid}) {
-            let story = await API.models.story.getById(uid);            
+            let story = await this._model.getById(uid);            
             this.renderPosts({story});
         }
 

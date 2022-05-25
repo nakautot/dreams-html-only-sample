@@ -11,9 +11,9 @@
         }
 
         async getModel({uid}) {
-            let currentSprint = await API.models.sprint.currentSprint();
-            let memberBadge = await API.models.memberBadge.getById(uid, currentSprint);
             let member = await this._model.getById(uid);
+            let currentSprint = await API.models.sprint.currentSprint();
+            let memberBadge = await API.models.memberBadge.getById(uid, currentSprint);            
             this.renderPosts({memberBadge, member});
         }
 

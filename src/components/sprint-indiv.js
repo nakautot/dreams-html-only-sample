@@ -2,6 +2,7 @@
     customElements.define('sprint-indiv', class extends HTMLElement {
         constructor() {
             super();
+            this._model = API.models.sprint;
             this.postSelected = this.postSelected.bind(this);
             this.refreshView = this.refreshView.bind(this);
         }
@@ -21,7 +22,7 @@
 
         postSelected() {
             let uid = this.attributes.uid.value;
-            API.models.sprint.setSelectedSprint(uid);
+            this._model.setSelectedSprint(uid);
             window.dispatchEvent(new CustomEvent('change-sprint'));
             window.dispatchEvent(new CustomEvent('refresh-sprint-indiv'));
             this.getModel({uid});
@@ -33,13 +34,13 @@
         }
 
         async getModel({uid}) {
-            let sprint = await API.models.sprint.getById(uid);
-            let currentSprint = await API.models.sprint.currentSprint();
+            let sprint = await this._model.getById(uid);
+            let currentSprint = await this._model.currentSprint();
             this.renderPosts({sprint, currentSprint});
         }
 
         renderPosts({sprint, currentSprint}) {
-            let selected = API.models.sprint.getSelectedSprint();
+            let selected = this._model.getSelectedSprint();
             let isCurrentSprint = sprint.id == currentSprint;
             let selectedClass = selected == sprint.id || !selected && isCurrentSprint ? 'mui--bg-primary-light' : '';
             this.innerHTML = `

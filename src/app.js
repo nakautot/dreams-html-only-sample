@@ -1,7 +1,8 @@
 let API = {
     _cache: {},
     _ts: (new Date()).getTime(),
-    models: {}
+    models: {},
+    helpers: {}
 };
 
 (function () {

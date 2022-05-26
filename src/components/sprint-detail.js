@@ -3,6 +3,7 @@
         constructor() {
             super();
             this._model = API.models.sprint;
+            this._helper = API.helpers.sprint;
             this.refreshView = this.refreshView.bind(this);
         }
 
@@ -29,20 +30,6 @@
             this.renderPosts({sprint, stories, currentSprint});
         }
 
-        getMost (onlyStories) {
-            let allStories = onlyStories.map(m => m.members.find(n => n.badge == 3).id);
-            let msRaw = allStories.reduce((p,c) => {
-                p[c] = (p[c] || 0) + 1;
-                return p;
-            }, {});
-            let maxStories = (Math.max(Object.keys(msRaw).map(m => msRaw[m])));
-            
-            return Object.keys(msRaw)
-                .filter(m => msRaw[m] == maxStories)
-                .map(m => `<member-img uid="${m}" width="20" height="20"></member-img>`);
-
-        }
-
         renderPosts({sprint, stories, currentSprint}) {    
             let storiesList = stories.map(m => `<story-indiv uid="${m.id}"></story-indiv>`).join();
             let currentSprintBadge = sprint.id == currentSprint ? '<badge-icon uid="6"></badge-icon>' : ''
@@ -50,9 +37,12 @@
             let onlyStories = stories.filter(m => m.icon == 14);
             let onlyDefects = stories.filter(m => m.icon == 11);
             let onlySupport = stories.filter(m => m.icon == 15);
-            let mostStories = this.getMost(onlyStories);
-            let mostDefects = this.getMost(onlyDefects);
-            let mostSupport = this.getMost(onlySupport);
+            let mostStories = this._helper.getMost(onlyStories, 3);
+            let mostDefects = this._helper.getMost(onlyDefects, 3);
+            let mostSupport = this._helper.getMost(onlySupport, 3);
+            let mostTested = this._helper.getMost(stories, 2);
+            let mostTCCreated = this._helper.getMost(stories, 8);
+            let mostRCA = this._helper.getMost(stories, 7);
 
             let info = [[{
                 label: '# of Stories',
@@ -72,6 +62,15 @@
             }, {
                 label: `Most Support`,
                 value: mostSupport
+            }], [{
+                label: `Most Tested`,
+                value: mostTested
+            }, {
+                label: `Most TC Created`,
+                value: mostTCCreated
+            }, {
+                label: `Most Investigated`,
+                value: mostRCA
             }]].map(m => m.map(n => `
                     <div class="mui-col-md-2 mui--text-right">${n.label}</div>
                     <div class="mui-col-md-2">${n.value}</div>`).join(''))

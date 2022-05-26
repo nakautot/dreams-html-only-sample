@@ -16,7 +16,7 @@
 
         renderPosts(membersIds) {
             let list = membersIds
-                .map(membersId => `<div class="mui-panel member"><member-indiv uid="${membersId}"></member-indiv></div>`)
+                .map(membersId => `<member-indiv uid="${membersId}"></member-indiv>`)
                 .join('');
 
             this.innerHTML = `

@@ -12,6 +12,14 @@
         async getAll (id) {        
             let members = await this.fetch();
             return members.map(m => m.id);
+        },
+
+        getSelectedMember () {
+            return this._selectedMember;
+        },
+
+        setSelectedMember (selectedMember) {
+            this._selectedMember = selectedMember;
         }
     };
 })();

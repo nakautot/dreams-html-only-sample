@@ -16,6 +16,9 @@
         }
 
         renderPosts({member}) {
+            if(!member)
+                return;
+                
             let width = this.attributes.width.value;
             let height = this.attributes.height.value;
 

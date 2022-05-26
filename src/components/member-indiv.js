@@ -49,7 +49,7 @@
 
             let isScrumMaster = memberBadge.some(m => m.badgeid == 5);
             let selectedClass = selected == id && !isScrumMaster ? 'mui--bg-primary-light' : '';
-            let isClickable = !isScrumMaster ? 'clickable' : '';
+            let isClickable = !isScrumMaster ? 'clickable' : 'mui--bg-accent-light';
 
             this.innerHTML = `
                 <div class="mui-panel member ${isClickable} mui--align-top ${selectedClass}">

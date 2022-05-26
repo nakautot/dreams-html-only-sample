@@ -28,7 +28,10 @@
 
             let currentSprint = await API.models.sprint.currentSprint();
             let sprintid = API.models.sprint.getSelectedSprint() || currentSprint;
-            let sprint = await API.models.sprint.getById(sprintid);            
+            let sprint = await API.models.sprint.getById(sprintid);
+            
+            let memberBadge = await API.models.memberBadge.getById(member.id, sprintid);
+            if(memberBadge.some(m => m.badgeid == 5)) return;
 
             let allStories = await API.models.story.getAllStoriesWithDetails(sprintid);
             let allDefects = await API.models.story.getAllDefectsWithDetails(sprintid);

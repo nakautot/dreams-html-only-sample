@@ -17,6 +17,7 @@
 
         renderPosts({uid}) {            
             let badge = this._model.badgeDict[uid];
+            if(!badge) return;
             this.innerHTML = `<span title="${badge.badge}: ${badge.description}">${badge.icon}</span>`;
         }
     });

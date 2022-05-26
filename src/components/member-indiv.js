@@ -37,7 +37,7 @@
             let currentSprint = await API.models.sprint.currentSprint();
             let sprintid = API.models.sprint.getSelectedSprint() || currentSprint;
             let member = await this._model.getById(uid);
-            let memberBadge = await API.models.memberBadge.getById(uid, sprintid);            
+            let memberBadge = await API.models.memberBadge.getById(uid, sprintid);       
             this.renderPosts({memberBadge, member});
         }
 
@@ -47,10 +47,12 @@
                 .map(m => `<badge-icon uid="${m.badgeid}"></badge-icon>`)
                 .join('');
 
-            let selectedClass = selected == id ? 'mui--bg-primary-light' : '';
+            let isScrumMaster = memberBadge.some(m => m.badgeid == 5);
+            let selectedClass = selected == id && !isScrumMaster ? 'mui--bg-primary-light' : '';
+            let isClickable = !isScrumMaster ? 'clickable' : '';
 
             this.innerHTML = `
-                <div class="mui-panel member clickable mui--align-top ${selectedClass}">
+                <div class="mui-panel member ${isClickable} mui--align-top ${selectedClass}">
                     <div><member-img uid="${id}" width="80" height="80"></member-img></div>
                     <div>${username}</div>
                     <div class="mui-divider"></div>

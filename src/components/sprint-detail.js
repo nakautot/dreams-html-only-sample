@@ -30,21 +30,19 @@
             let onlyDefects = await API.models.story.getAllDefectsWithDetails(sprintid);
             let onlySupport = await API.models.story.getAllSupportWithDetails(sprintid);
 
-            this.renderPosts({sprint, stories, currentSprint, onlyStories, onlyDefects, onlySupport});
+            let mostStories = await API.models.story.getMostStories(sprintid, true);
+            let mostDefects = await API.models.story.getMostDefects(sprintid, true);
+            let mostSupport = await API.models.story.getMostSupport(sprintid, true);
+            let mostTested = await API.models.story.getMostTested(sprintid, true);
+            let mostTCCreated = await API.models.story.getMostTCCreated(sprintid, true);
+            let mostRCAed = await API.models.story.getMostRCA(sprintid, true); 
+
+            this.renderPosts({sprint, stories, currentSprint, onlyStories, onlyDefects, onlySupport, mostStories, mostDefects, mostSupport, mostTested, mostTCCreated, mostRCAed});
         }
 
-        renderPosts({sprint, stories, currentSprint, onlyStories, onlyDefects, onlySupport}) {    
+        renderPosts({sprint, stories, currentSprint, onlyStories, onlyDefects, onlySupport, mostStories, mostDefects, mostSupport, mostTested, mostTCCreated, mostRCAed}) {    
             let storiesList = stories.map(m => `<story-indiv uid="${m.id}"></story-indiv>`).join();
-            let currentSprintBadge = sprint.id == currentSprint ? '<badge-icon uid="6"></badge-icon>' : ''
-                                   
-            let mostStories = this._helper.getMost(onlyStories, 3);
-            let mostDefects = this._helper.getMost(onlyDefects, 3);
-            let mostSupport = this._helper.getMost(onlySupport, 3);
-            let mostTested = this._helper.getMost(stories, 2);
-            let mostTCCreated = this._helper.getMost(stories, 8);
-            let mostRCA = this._helper.getMost(stories, 7);
-
-            this._model.stories
+            let currentSprintBadge = sprint.id == currentSprint ? '<badge-icon uid="6"></badge-icon>' : '';
 
             let info = [[{
                 label: '# of Stories',
@@ -72,7 +70,7 @@
                 value: mostTCCreated
             }, {
                 label: `Most Investigated`,
-                value: mostRCA
+                value: mostRCAed
             }]].map(m => m.map(n => `
                     <div class="mui-col-md-2 mui--text-right">${n.label}</div>
                     <div class="mui-col-md-2">${n.value}</div>`).join(''))

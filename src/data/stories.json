@@ -4,7 +4,7 @@
         "ticket": "FLPG-18191",
         "icon": 14,
         "sprintid": 2,
-        "title": "Building Page/Auto Eval Rights Launch Readiness - Austin/Early Adopters",
+        "title": "Run EEM Observer script (Austin ISD/early adopters) when building pages are implemented in PROD",
         "members": [
             {
                 "id": 1,
@@ -17,7 +17,7 @@
         "ticket": "FLPG-18153",
         "icon": 16,
         "sprintid": 2,
-        "title": "Cookies:  Q2 2022 Tech Debt",
+        "title": "ES3D: Pre-Release Testing",
         "members": [
             {
                 "id": 1,
@@ -30,7 +30,7 @@
         "ticket": "FLPG-18146",
         "icon": 14,
         "sprintid": 2,
-        "title": "EEM Form Locking After Finalization (Austin)",
+        "title": "EEM Admin Right - Update Name/hover text",
         "members": [
             {
                 "id": 1,
@@ -51,7 +51,7 @@
         "ticket": "FLPG-18142",
         "icon": 11,
         "sprintid": 2,
-        "title": "Cookies:  Q2 2022 Tech Debt",
+        "title": "Arlington County Public Schools, VA Cannot edit activity end date",
         "members": [
             {
                 "id": 4,
@@ -76,7 +76,7 @@
         "ticket": "FLPG-18122",
         "icon": 11,
         "sprintid": 2,
-        "title": "Building Profile Page to Support EEM Eval Rights Automation - Q2 Polish",
+        "title": "Manage building page - Clicking change to update approver (slots 1 & 2) reposition modal",
         "members": [
             {
                 "id": 1,
@@ -101,7 +101,7 @@
         "ticket": "FLPG-17841",
         "icon": 14,
         "sprintid": 2,
-        "title": "Building Profile Page to Support EEM Eval Rights Automation - Q2 Polish",
+        "title": "Update Building List Message - Keep text with hyperlink only",
         "members": [
             {
                 "id": 1,
@@ -122,7 +122,7 @@
         "ticket": "FLPG-17698",
         "icon": 17,
         "sprintid": 2,
-        "title": "Cookies:  Q2 2022 Tech Debt",
+        "title": "Upgrade remaining jquery 1.11 dependencies in Oasys to version 3.6",
         "members": [
             {
                 "id": 7,
@@ -135,7 +135,7 @@
         "ticket": "FLPG-17657",
         "icon": 14,
         "sprintid": 2,
-        "title": "Building Profile Page to Support EEM Eval Rights Automation - Q2 Polish",
+        "title": "Insights Dashboards - Ensure all observer slots are being picked up in the apis",
         "members": [
             {
                 "id": 3,
@@ -156,7 +156,7 @@
         "ticket": "FLPG-17507",
         "icon": 15,
         "sprintid": 2,
-        "title": "Cookies:  Q2 2022 Production Support",
+        "title": "Marana Unified School District, AZ- Update a Legacy report II",
         "members": [
             {
                 "id": 2,
@@ -169,7 +169,7 @@
         "ticket": "FLPG-17504",
         "icon": 15,
         "sprintid": 2,
-        "title": "Cookies:  Q2 2022 Production Support",
+        "title": "Marana Unified School District, AZ- Update a Legacy report",
         "members": [
             {
                 "id": 2,
@@ -190,7 +190,7 @@
         "ticket": "FLPG-17481",
         "icon": 14,
         "sprintid": 2,
-        "title": "New Professional Learning Config Pages - (Critical Security Work)",
+        "title": "Configuration > Forms & Data - Select All/None ",
         "members": [
             {
                 "id": 5,
@@ -211,7 +211,7 @@
         "ticket": "FLPG-17474",
         "icon": 16,
         "sprintid": 2,
-        "title": "New Professional Learning Config Pages - (Critical Security Work)",
+        "title": "Create FF for pg_plm_config_pages",
         "members": [
             {
                 "id": 1,
@@ -224,7 +224,7 @@
         "ticket": "FLPG-17340",
         "icon": 14,
         "sprintid": 2,
-        "title": "New Professional Learning Config Pages - (Critical Security Work)",
+        "title": "Configuration > Forms & Data - click on option in new page menu",
         "members": [
             {
                 "id": 5,
@@ -245,7 +245,7 @@
         "ticket": "FLPG-17337",
         "icon": 14,
         "sprintid": 2,
-        "title": "New Professional Learning Config Pages - (Critical Security Work)",
+        "title": "Configuration pages - Mini Nav on Main page",
         "members": [
             {
                 "id": 4,
@@ -266,7 +266,7 @@
         "ticket": "FLPG-17273",
         "icon": 15,
         "sprintid": 2,
-        "title": "Cookies:  Q2 2022 Production Support",
+        "title": "Massena Central School District, NY - Edit existing report to reflect updated SY",
         "members": [
             {
                 "id": 4,
@@ -287,7 +287,7 @@
         "ticket": "FLPG-17251",
         "icon": 11,
         "sprintid": 2,
-        "title": "Cookies:  Q2 2022 Production Support",
+        "title": "East Aurora UFSD, NY- (reported) - Nightly emails showing non-platform email",
         "members": [
             {
                 "id": 5,
@@ -308,7 +308,7 @@
         "ticket": "FLPG-17168",
         "icon": 11,
         "sprintid": 2,
-        "title": "Cookies:  Q2 2022 Production Support",
+        "title": "Arlington, VA - user unable to UNarchive 3 activities",
         "members": [
             {
                 "id": 5,
@@ -329,7 +329,7 @@
         "ticket": "FLPG-17021",
         "icon": 15,
         "sprintid": 2,
-        "title": "Cookies:  Q2 2022 Production Support",
+        "title": "Three Rivers Local SD, OH - 22445 - Accounts can't merge in Platform",
         "members": [
             {
                 "id": 4,

@@ -34,6 +34,7 @@
             let memberBadge = await API.models.memberBadge.getById(member.id, sprintid);
             if(memberBadge.some(m => m.badgeid == 5)) return;
 
+            let stories = await API.models.story.getAllWithDetails(sprintid);
             let allStories = await API.models.story.getAllStoriesWithDetails(sprintid);
             let allDefects = await API.models.story.getAllDefectsWithDetails(sprintid);
             let allSupport = await API.models.story.getAllSupportWithDetails(sprintid);
@@ -48,10 +49,10 @@
             let mostTCCreated = await API.models.story.getMostTCCreated(sprintid);
             let mostRCAed = await API.models.story.getMostRCA(sprintid);            
             
-            this.renderPosts({member, memberBadge, sprint, allStories, allDefects, allSupport, allTests, allRCAs, allTCs, mostStories, mostDefects, mostSupport, mostTested, mostTCCreated, mostRCAed});
+            this.renderPosts({member, memberBadge, sprint, stories, allStories, allDefects, allSupport, allTests, allRCAs, allTCs, mostStories, mostDefects, mostSupport, mostTested, mostTCCreated, mostRCAed});
         }
 
-        renderPosts({member, memberBadge, sprint, allStories, allDefects, allSupport, allTests, allRCAs, allTCs, mostStories, mostDefects, mostSupport, mostTested, mostTCCreated, mostRCAed}) {
+        renderPosts({member, memberBadge, sprint, stories, allStories, allDefects, allSupport, allTests, allRCAs, allTCs, mostStories, mostDefects, mostSupport, mostTested, mostTCCreated, mostRCAed}) {
             const getPercent = (num, denum) => `${(((num.length / denum.length) || 0) * 100).toFixed(0)}%`;
             const sum = arr => ({length: arr.map(m => m.length).reduce((p, c) => p + c, 0)});
             const clean = arr => arr
@@ -59,6 +60,13 @@
                     .map(n => `<div class="mui-col-md-2"><b>${n.label || '&nbsp;'} </b>${n.value || n.value == 0 ? n.value : '&nbsp;'}</div>`)
                     .join(''))
                 .join('</div><div class="mui-row">');
+
+            let grouped = stories.map(m => m.members.map(n => n.id)).flat().reduce((p, v) => {
+                p[v] = (p[v] || 0) + 1;
+                return p;
+            }, {});
+            let max = Math.max(...Object.values(grouped));
+            let isMVP = Object.keys(grouped).filter(m => grouped[m] == max).some(m => m == member.id);
             
             let onlyStories = API.helpers.sprint.getMemberTotal(member.id, allStories, 3);
             let onlyDefects = API.helpers.sprint.getMemberTotal(member.id, allDefects, 3);
@@ -72,6 +80,7 @@
             let allDenums = sum([allStories, allDefects, allSupport, allTests, allTCs, allRCAs]);
 
             let achievements = [];
+            if(isMVP) achievements.push('<badge-icon uid="18"></badge-icon> Most Team Contribution!');
             if(mostStories.some(m => m == member.id)) achievements.push('<badge-icon uid="14"></badge-icon> Most Stories Completed!');
             if(mostDefects.some(m => m == member.id)) achievements.push('<badge-icon uid="11"></badge-icon> Most Defects Fixed!');
             if(mostSupport.some(m => m == member.id)) achievements.push('<badge-icon uid="15"></badge-icon> Most Support Request Completed!');

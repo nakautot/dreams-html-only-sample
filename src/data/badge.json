@@ -83,4 +83,9 @@
     "badge":"Tech Debt",
     "icon": "💳",
     "description":"Lingering work to improve the app"
+}, {
+    "id":18,
+    "badge":"MVP",
+    "icon": "🥇",
+    "description":"Awarded to members who contributed the most in the sprint"
 }]

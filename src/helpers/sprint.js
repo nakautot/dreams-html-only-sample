@@ -14,6 +14,12 @@
                 .filter(m => msRaw[m] == maxTickets)
                 .map(m => `<member-img uid="${m}" width="20" height="20"></member-img>`)
                 .join('&nbsp;');
+        },
+
+        getMemberTotal (id, stories, badge) {
+            return stories
+                .map(m => m.members.find(n => n.badge == badge)?.id)
+                .filter(m => m == id);
         }
     };    
 })();

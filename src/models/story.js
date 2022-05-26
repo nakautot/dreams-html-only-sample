@@ -14,6 +14,22 @@
             return story.filter(m => m.sprintid == sprintid);
         },
 
+        async getAllStoriesWithDetails (sprintid) {
+            let stories = await this.getAllWithDetails(sprintid);
+            return stories.filter(m => m.icon == 14 || m.icon == 16 || m.icon == 17);
+        },
+
+        async getAllDefectsWithDetails (sprintid) {
+            let stories = await this.getAllWithDetails(sprintid);
+            return stories.filter(m => m.icon == 11);
+        },
+
+        async getAllSupportWithDetails (sprintid) {
+            let stories = await this.getAllWithDetails(sprintid);
+            return stories.filter(m => m.icon == 15);
+        },
+
+
         async getById (id) {
             let story = await this.fetch();
             return story.find(m => m.id == id);

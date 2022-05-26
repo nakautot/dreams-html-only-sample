@@ -26,23 +26,25 @@
             let sprintid = this._model.getSelectedSprint() || currentSprint;
             let sprint = await this._model.getById(sprintid);
             let stories = await API.models.story.getAllWithDetails(sprintid);
+            let onlyStories = await API.models.story.getAllStoriesWithDetails(sprintid);
+            let onlyDefects = await API.models.story.getAllDefectsWithDetails(sprintid);
+            let onlySupport = await API.models.story.getAllSupportWithDetails(sprintid);
 
-            this.renderPosts({sprint, stories, currentSprint});
+            this.renderPosts({sprint, stories, currentSprint, onlyStories, onlyDefects, onlySupport});
         }
 
-        renderPosts({sprint, stories, currentSprint}) {    
+        renderPosts({sprint, stories, currentSprint, onlyStories, onlyDefects, onlySupport}) {    
             let storiesList = stories.map(m => `<story-indiv uid="${m.id}"></story-indiv>`).join();
             let currentSprintBadge = sprint.id == currentSprint ? '<badge-icon uid="6"></badge-icon>' : ''
-            
-            let onlyStories = stories.filter(m => m.icon == 14 || m.icon == 16 || m.icon == 17);
-            let onlyDefects = stories.filter(m => m.icon == 11);
-            let onlySupport = stories.filter(m => m.icon == 15);
+                                   
             let mostStories = this._helper.getMost(onlyStories, 3);
             let mostDefects = this._helper.getMost(onlyDefects, 3);
             let mostSupport = this._helper.getMost(onlySupport, 3);
             let mostTested = this._helper.getMost(stories, 2);
             let mostTCCreated = this._helper.getMost(stories, 8);
             let mostRCA = this._helper.getMost(stories, 7);
+
+            this._model.stories
 
             let info = [[{
                 label: '# of Stories',

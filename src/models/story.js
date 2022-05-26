@@ -29,14 +29,23 @@
             return stories.filter(m => m.icon == 15);
         },
 
-        async getAllTests (sprintid) {
+        async getAllSubs (sprintid, badgeId) {
             let stories = await this.getAllWithDetails(sprintid);
-            return stories.map(m => m.members.find(n => n.badge == 2)?.id).filter(m => m);
+            return stories
+                .map(m => m.members.find(n => n.badge == badgeId)?.id)
+                .filter(m => m);
+        },
+
+        async getAllTests (sprintid) {
+            return this.getAllSubs(sprintid, 2);
         },
 
         async getAllRCA (sprintid) {
-            let stories = await this.getAllWithDetails(sprintid);
-            return stories.map(m => m.members.find(n => n.badge == 7)?.id).filter(m => m);
+            return this.getAllSubs(sprintid, 7);
+        },
+
+        async getAllTC (sprintid) {
+            return this.getAllSubs(sprintid, 8);
         },
 
         async getById (id) {

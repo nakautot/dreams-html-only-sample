@@ -35,52 +35,65 @@
             let allSupport = await API.models.story.getAllSupportWithDetails(sprintid);
             let allTests = await API.models.story.getAllTests(sprintid);
             let allRCAs = await API.models.story.getAllRCA(sprintid);
-            this.renderPosts({member, sprint, allStories, allDefects, allSupport, allTests, allRCAs});
+            let allTCs = await API.models.story.getAllTC(sprintid);
+            this.renderPosts({member, sprint, allStories, allDefects, allSupport, allTests, allRCAs, allTCs});
         }
 
-        renderPosts({member, sprint, allStories, allDefects, allSupport, allTests, allRCAs}) {
+        renderPosts({member, sprint, allStories, allDefects, allSupport, allTests, allRCAs, allTCs}) {
+            const getPercent = (num, denum) => `${(((num.length / denum.length) || 0) * 100).toFixed(0)}%`;
+            const sum = arr => ({length: arr.map(m => m.length).reduce((p, c) => p + c, 0)});
+            
             let onlyStories = API.helpers.sprint.getMemberTotal(member.id, allStories, 3);
             let onlyDefects = API.helpers.sprint.getMemberTotal(member.id, allDefects, 3);
             let onlySupport = API.helpers.sprint.getMemberTotal(member.id, allSupport, 3);
             let onlyTests = allTests.filter(m => m == member.id);
             let onlyRCAs = allRCAs.filter(m => m == member.id);
+            let onlyTCs = allTCs.filter(m => m == member.id);
+            let allNums = sum([onlyStories, onlyDefects, onlySupport, onlyTests, onlyTCs, onlyRCAs]);
+            let allDenums = sum([allStories, allDefects, allSupport, allTests, allTCs, allRCAs]);
 
-            const getPercent = (num, denum) => {
-                return `${(((num.length / denum.length) || 0) * 100).toFixed(0)}%`
-            };
-            
             let info = [[{
-                label: '# of Stories',
+                label: '# of Stories:',
                 value: onlyStories.length
             }, {
-                label: '# of Defects',
+                label: '# of Defects:',
                 value: onlyDefects.length
             }, {
-                label: '# of Support',
+                label: '# of Support:',
                 value: onlySupport.length
             }, {
-                label: '# of Tests',
+                label: '# of Tests:',
                 value: onlyTests.length
             }, {
-                label: '# of RCAs',
+                label: '# of T.Cases:',
+                value: onlyTCs.length
+            }, {
+                label: '# of RCAs:',
                 value: onlyRCAs.length
             }],[{
-                label: 'Story Contribution',
+                label: 'Story Contribution:',
                 value: getPercent(onlyStories, allStories)
             }, {
-                label: 'Fixing Contribution',
+                label: 'Fixing Contribution:',
                 value: getPercent(onlyDefects, allDefects)
             }, {
-                label: 'Support Contribution',
+                label: 'Support Contribution:',
                 value: getPercent(onlySupport, allSupport)
             }, {
-                label: 'Testing Contribution',
+                label: 'Testing Contribution:',
                 value: getPercent(onlyTests, allTests)
             }, {
-                label: 'RCA Contribution',
+                label: 'T.Case Contribution:',
+                value: getPercent(onlyTCs, allTCs)
+            }, {
+                label: 'RCA Contribution:',
                 value: getPercent(onlyRCAs, allRCAs)
-            }]].map(m => m.map(n => `<div class="mui-col-md-2"><b>${n.label} : </b>${n.value}</div>`).join(''))
+            }], [{}], [{
+                label: 'TEAM Contribution:',
+                value: getPercent(allNums, allDenums)
+            }]].map(m => m.map(n => `<div class="mui-col-md-2"><b>${n.label || '&nbsp;'} </b>${n.value || '&nbsp;'}</div>`).join(''))
             .join('</div><div class="mui-row">')
+            
 
             this.innerHTML = `
                 <div class="header mui--text-headline"><member-img uid="${member.id}" width="25" height="25"></member-img> ${member.username.toUpperCase()}'s stats for ${sprint.name}</div>

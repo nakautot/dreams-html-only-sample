@@ -73,4 +73,14 @@
     "badge":"Support Request",
     "icon": "🚧",
     "description":"Change requests from CS"
+}, {
+    "id":16,
+    "badge":"Task",
+    "icon": "🙋‍♂️",
+    "description":"Work outside of the sprint goals"
+}, {
+    "id":17,
+    "badge":"Tech Debt",
+    "icon": "💳",
+    "description":"Lingering work to improve the app"
 }]

@@ -1,7 +1,9 @@
 (function () {
     API.helpers.sprint = {
         getMost (onlyTickets, badgeId) {
-            let allTickets = onlyTickets.map(m => m.members.find(n => n.badge == badgeId)?.id);
+            let allTickets = onlyTickets
+                .map(m => m.members.find(n => n.badge == badgeId)?.id)
+                .filter(m => m);
             let msRaw = allTickets.reduce((p,c) => {
                 p[c] = (p[c] || 0) + 1;
                 return p;

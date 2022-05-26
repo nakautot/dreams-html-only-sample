@@ -18,7 +18,7 @@
         renderPosts({story}) {
             let tasks = (story.members || []).map(m => `<task-indiv model='${JSON.stringify(m)}'></task-indiv>`).join('<div class="mui-divider"></div>');
             this.innerHTML = `
-                <div class="mui-panel story">
+                <div class="mui-panel story mui--align-top">
                     <div class="mui-container-fluid">
                         <div class="mui-row">
                             <div class="mui-col-md-6">
@@ -26,6 +26,11 @@
                                 <div class="mui--text-subhead"><a href="https://frontlinetechnologies.atlassian.net/browse/${story.ticket}">${story.ticket}</a></div>                                
                             </div>
                             <div class="mui-col-md-6 tasks mui--text-right">${tasks}</div>
+                        </div>
+                        <div class="mui-row">
+                            <div class="mui-col-md-12 story-title">
+                            ${story.title}
+                            </div>
                         </div>
                     </div>
                 </div>

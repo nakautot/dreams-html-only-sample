@@ -34,7 +34,7 @@
             let storiesList = stories.map(m => `<story-indiv uid="${m.id}"></story-indiv>`).join();
             let currentSprintBadge = sprint.id == currentSprint ? '<badge-icon uid="6"></badge-icon>' : ''
             
-            let onlyStories = stories.filter(m => m.icon == 14);
+            let onlyStories = stories.filter(m => m.icon == 14 || m.icon == 16 || m.icon == 17);
             let onlyDefects = stories.filter(m => m.icon == 11);
             let onlySupport = stories.filter(m => m.icon == 15);
             let mostStories = this._helper.getMost(onlyStories, 3);

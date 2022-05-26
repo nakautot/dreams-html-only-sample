@@ -44,7 +44,7 @@
             let isCurrentSprint = sprint.id == currentSprint;
             let selectedClass = selected == sprint.id || !selected && isCurrentSprint ? 'mui--bg-primary-light' : '';
             this.innerHTML = `
-                <div class="mui-panel sprint ${selectedClass} clickable">
+                <div class="mui-panel sprint ${selectedClass} clickable mui--align-top">
                     <b>${sprint.name}</b> ${isCurrentSprint ? '<badge-icon uid="6"></badge-icon>' : ''}
                 </div>
             `;

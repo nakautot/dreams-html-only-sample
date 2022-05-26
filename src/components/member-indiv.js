@@ -50,7 +50,7 @@
             let selectedClass = selected == id ? 'mui--bg-primary-light' : '';
 
             this.innerHTML = `
-                <div class="mui-panel member ${selectedClass}">
+                <div class="mui-panel member mui--align-top ${selectedClass}">
                     <div><member-img uid="${id}" width="80" height="80"></member-img></div>
                     <div>${username}</div>
                     <div class="mui-divider"></div>

@@ -91,7 +91,7 @@
             }], [{}], [{
                 label: 'TEAM Contribution:',
                 value: getPercent(allNums, allDenums)
-            }]].map(m => m.map(n => `<div class="mui-col-md-2"><b>${n.label || '&nbsp;'} </b>${n.value || '&nbsp;'}</div>`).join(''))
+            }]].map(m => m.map(n => `<div class="mui-col-md-2"><b>${n.label || '&nbsp;'} </b>${n.value || n.value == 0 ? n.value : '&nbsp;'}</div>`).join(''))
             .join('</div><div class="mui-row">')
             
 

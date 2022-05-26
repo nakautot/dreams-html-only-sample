@@ -344,5 +344,311 @@
                 "badge": 3
             }
         ]
+    },
+    {
+        "id": 19,
+        "ticket": "FLPG-18097",
+        "icon": 15,
+        "sprintid": 3,
+        "title": "Miami-Dade, FL Remove Meeting Link/URL - form broken",
+        "members": [
+            {
+                "id": 4,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "ticket": "FLPG-18051",
+        "icon": 17,
+        "sprintid": 3,
+        "title": "PLM UI: Fix the critical dependabot warnings",
+        "members": [
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "ticket": "FLPG-17901",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "EEM Form Locking PREF - Update setting name",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 4,
+                "badge": 2
+            },
+            {
+                "id": 6,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "ticket": "FLPG-17861",
+        "icon": 11,
+        "sprintid": 3,
+        "title": "Required Field Building Name when Editing building",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "ticket": "FLPG-17857",
+        "icon": 11,
+        "sprintid": 3,
+        "title": "Required Field Building Name when Adding building",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "ticket": "FLPG-17853",
+        "icon": 11,
+        "sprintid": 3,
+        "title": "Only PG Configs should have access to Building Pages",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "ticket": "FLPG-17849",
+        "icon": 11,
+        "sprintid": 3,
+        "title": "Regular User should not be able to access building page thru URL",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 3,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "ticket": "FLPG-17846",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Same Approver should only be an EEM observer in one (Building)",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "ticket": "FLPG-17660",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Insights Dashboards - Ensure all EEM observers are \"building admins\" so they can access My supervision",
+        "members": [
+            {
+                "id": 4,
+                "badge": 8
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 6,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "ticket": "FLPG-17648",
+        "icon": 15,
+        "sprintid": 3,
+        "title": "Salina USD 305, KS - Final Evaluation Summary Form Error",
+        "members": [
+            {
+                "id": 4,
+                "badge": 8
+            },
+            {
+                "id": 3,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "ticket": "FLPG-17611",
+        "icon": 11,
+        "sprintid": 3,
+        "title": "Past Cycle edit button not disabled for non-sadmin w/o edit archive cycle right",
+        "members": [
+            {
+                "id": 4,
+                "badge": 8
+            },
+            {
+                "id": 4,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "ticket": "FLPG-17299",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Run EEM Observer script (Austin ISD/early adopters) when building pages are implemented",
+        "members": [
+            {
+                "id": 3,
+                "badge": 8
+            },
+            {
+                "id": 3,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "ticket": "FLPG-17018",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Targeted Alert - Ability to edit URL when message is edited.",
+        "members": [
+            {
+                "id": 4,
+                "badge": "create-test-case"
+            },
+            {
+                "id": 3,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "ticket": "FLPG-16985",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "MGJ - News & Info for Customers on MGJ page",
+        "members": [
+            {
+                "id": 4,
+                "badge": 8
+            },
+            {
+                "id": 4,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
     }
 ]

@@ -3,17 +3,29 @@
         constructor() {
             super();
             this._model = API.models.member;
+            this.refreshView = this.refreshView.bind(this);
         }
 
         connectedCallback() {
-            let uid = this.attributes.uid.value;
+            this.refreshView();
+            window.addEventListener('change-sprint', this.refreshView);
+        }
+
+        disconnectedCallback() {
+            window.removeEventListener('change-sprint', this.refreshView);
+            super.disconnectedCallback && super.disconnectedCallback();
+        }
+
+        refreshView() {  
+            let uid = this.attributes.uid.value;          
             this.getModel({uid});
         }
 
         async getModel({uid}) {
-            let member = await this._model.getById(uid);
             let currentSprint = await API.models.sprint.currentSprint();
-            let memberBadge = await API.models.memberBadge.getById(uid, currentSprint);            
+            let sprintid = API.models.sprint.getSelectedSprint() || currentSprint;
+            let member = await this._model.getById(uid);
+            let memberBadge = await API.models.memberBadge.getById(uid, sprintid);            
             this.renderPosts({memberBadge, member});
         }
 

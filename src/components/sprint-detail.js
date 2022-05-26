@@ -16,7 +16,7 @@
             super.disconnectedCallback && super.disconnectedCallback();
         }
 
-        refreshView() {            
+        refreshView() {
             this.getModel();
         }
 

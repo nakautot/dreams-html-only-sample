@@ -39,10 +39,10 @@
             let allTests = await API.models.story.getAllTests(sprintid);
             let allRCAs = await API.models.story.getAllRCA(sprintid);
             let allTCs = await API.models.story.getAllTC(sprintid);
-            this.renderPosts({member, sprint, allStories, allDefects, allSupport, allTests, allRCAs, allTCs});
+            this.renderPosts({member, memberBadge, sprint, allStories, allDefects, allSupport, allTests, allRCAs, allTCs});
         }
 
-        renderPosts({member, sprint, allStories, allDefects, allSupport, allTests, allRCAs, allTCs}) {
+        renderPosts({member, memberBadge, sprint, allStories, allDefects, allSupport, allTests, allRCAs, allTCs}) {
             const getPercent = (num, denum) => `${(((num.length / denum.length) || 0) * 100).toFixed(0)}%`;
             const sum = arr => ({length: arr.map(m => m.length).reduce((p, c) => p + c, 0)});
             
@@ -94,6 +94,9 @@
             }], [{}], [{
                 label: 'TEAM Contribution:',
                 value: getPercent(allNums, allDenums)
+            }, {
+                label: 'Roles/Assigments:',
+                value: memberBadge.map(m => `<badge-icon uid="${m.badgeid}"></badge-icon>`).join('')
             }]].map(m => m.map(n => `<div class="mui-col-md-2"><b>${n.label || '&nbsp;'} </b>${n.value || n.value == 0 ? n.value : '&nbsp;'}</div>`).join(''))
             .join('</div><div class="mui-row">')
             

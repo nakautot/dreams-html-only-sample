@@ -31,7 +31,12 @@
 
         async getAllTests (sprintid) {
             let stories = await this.getAllWithDetails(sprintid);
-            return stories.map(m => m.members.find(n => n.badge == 2)?.id).filter(m => m);;
+            return stories.map(m => m.members.find(n => n.badge == 2)?.id).filter(m => m);
+        },
+
+        async getAllRCA (sprintid) {
+            let stories = await this.getAllWithDetails(sprintid);
+            return stories.map(m => m.members.find(n => n.badge == 7)?.id).filter(m => m);
         },
 
         async getById (id) {

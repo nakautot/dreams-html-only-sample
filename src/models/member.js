@@ -9,7 +9,7 @@
             return members.find(m => m.id == id);
         },
 
-        async getAll (id) {        
+        async getAll () {        
             let members = await this.fetch();
             return members.map(m => m.id);
         },

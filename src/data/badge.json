@@ -31,7 +31,7 @@
 },{
     "id":7,
     "badge":"Root Cause Analysis",
-    "icon":"🩺",
+    "icon":"🏥",
     "description":"Identify the main cause of the defect"
 },{
     "id":8,
@@ -46,7 +46,7 @@
 },{
     "id":10,
     "badge":"Deployment Tester",
-    "icon":"🔨",
+    "icon":"👀",
     "description":"Responsible for testing RCs on stage and advising to proceed or not with th release"
 },{
     "id":11,
@@ -66,7 +66,7 @@
 },{
     "id":14,
     "badge":"Story",
-    "icon": "🎫",
+    "icon": "🎟",
     "description":"Feature Requests"
 },{
     "id":15,

@@ -33,13 +33,15 @@
             let allStories = await API.models.story.getAllStoriesWithDetails(sprintid);
             let allDefects = await API.models.story.getAllDefectsWithDetails(sprintid);
             let allSupport = await API.models.story.getAllSupportWithDetails(sprintid);
-            this.renderPosts({member, sprint, allStories, allDefects, allSupport});
+            let allTests = await API.models.story.getAllTests(sprintid);
+            this.renderPosts({member, sprint, allStories, allDefects, allSupport, allTests});
         }
 
-        renderPosts({member, sprint, allStories, allDefects, allSupport}) {
+        renderPosts({member, sprint, allStories, allDefects, allSupport, allTests}) {
             let onlyStories = API.helpers.sprint.getMemberTotal(member.id, allStories, 3);
             let onlyDefects = API.helpers.sprint.getMemberTotal(member.id, allDefects, 3);
             let onlySupport = API.helpers.sprint.getMemberTotal(member.id, allSupport, 3);
+            let onlyTests = allTests.filter(m => m == member.id);
 
             const getPercent = (num, denum) => {
                 return `${(((num.length / denum.length) || 0) * 100).toFixed(0)}%`
@@ -54,6 +56,9 @@
             }, {
                 label: '# of Support',
                 value: onlySupport.length
+            }, {
+                label: '# of Tests',
+                value: onlyTests.length
             }],[{
                 label: 'Story Contribution',
                 value: getPercent(onlyStories, allStories)
@@ -63,6 +68,9 @@
             }, {
                 label: 'Support Contribution',
                 value: getPercent(onlySupport, allSupport)
+            }, {
+                label: 'Testing Contribution',
+                value: getPercent(onlyTests, allTests)
             }]].map(m => m.map(n => `<div class="mui-col-md-2"><b>${n.label} : </b>${n.value}</div>`).join(''))
             .join('</div><div class="mui-row">')
 

@@ -29,7 +29,7 @@
         },
 
         setSelectedSprint (selectedSprint) {
-            API.models.sprint._selectedSprint = selectedSprint;
+            this._selectedSprint = selectedSprint;
         }
     };
 })();

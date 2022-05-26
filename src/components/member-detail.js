@@ -29,21 +29,32 @@
             let currentSprint = await API.models.sprint.currentSprint();
             let sprintid = API.models.sprint.getSelectedSprint() || currentSprint;
             let sprint = await API.models.sprint.getById(sprintid);            
-            let stories = await API.models.story.getAllWithDetails(sprintid);
 
             let allStories = await API.models.story.getAllStoriesWithDetails(sprintid);
-            this.renderPosts({member, sprint, stories, allStories});
+            let allDefects = await API.models.story.getAllDefectsWithDetails(sprintid);
+            this.renderPosts({member, sprint, allStories, allDefects});
         }
 
-        renderPosts({member, sprint, stories, allStories}) {
+        renderPosts({member, sprint, allStories, allDefects}) {
             let onlyStories = API.helpers.sprint.getMemberTotal(member.id, allStories, 3);
+            let onlyDefects = API.helpers.sprint.getMemberTotal(member.id, allDefects, 3);
+
+            const getPercent = (num, denum) => {
+                return `${(((num.length / denum.length) || 0) * 100).toFixed(1)}%`
+            };
             
             let info = [[{
                 label: '# of Stories',
                 value: onlyStories.length
+            }, {
+                label: '# of Defects',
+                value: onlyDefects.length
             }],[{
                 label: 'Story Contribution',
-                value: `${(((onlyStories.length / stories.length) || 0) * 100).toFixed(1)}%`
+                value: getPercent(onlyStories, allStories)
+            }, {
+                label: 'Defects Fixed',
+                value: getPercent(onlyDefects, allDefects)
             }]].map(m => m.map(n => `<div class="mui-col-md-2"><b>${n.label} : </b>${n.value}</div>`).join(''))
             .join('</div><div class="mui-row">')
 

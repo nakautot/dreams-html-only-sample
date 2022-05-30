@@ -618,7 +618,7 @@
         "members": [
             {
                 "id": 4,
-                "badge": "create-test-case"
+                "badge": 8
             },
             {
                 "id": 3,
@@ -648,6 +648,269 @@
             {
                 "id": 8,
                 "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "ticket": "FLPG-17654",
+        "icon": 14,
+        "sprintid": 4,
+        "title": "Update areas of application wherever tbl_Buildings int_Admin6ID-int_Admin9ID columns are referenced",
+        "members": [
+            {
+                "id": 4,
+                "badge": 8
+            },
+            {
+                "id": 3,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "ticket": "FLPG-17606",
+        "icon": 14,
+        "sprintid": 4,
+        "title": "Building pages - Messaging updates-II",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 3,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "ticket": "FLPG-17600",
+        "icon": 14,
+        "sprintid": 4,
+        "title": "Include messaging under EEM Observer heading (pref on/off)",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 7,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "ticket": "FLPG-17538",
+        "icon": 11,
+        "sprintid": 4,
+        "title": "EEM Automation - checkbox next to approver doesn't kick off rights automation",
+        "members": [
+            {
+                "id": 3,
+                "badge": 8
+            },
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "ticket": "FLPG-17489",
+        "icon": 11,
+        "sprintid": 4,
+        "title": "Position Type - If None is selected it wont save",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 6,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "ticket": "FLPG-17381",
+        "icon": 11,
+        "sprintid": 4,
+        "title": "Orange Ulster BOCES, NY (reported) - WR Report Writer, when enrollment options removed, not appearing in reports. (2nd pass)",
+        "members": [
+            {
+                "id": 4,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 7
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 6,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "ticket": "FLPG-17293",
+        "icon": 15,
+        "sprintid": 4,
+        "title": "Barneveld School District, WI - Component Manager Issue (Refix)",
+        "members": [
+            {
+                "id": 2,
+                "badge": 8
+            },
+            {
+                "id": 3,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "ticket": "FLPG-17277",
+        "icon": 11,
+        "sprintid": 4,
+        "title": "Building Details Page - EEM Observers - Unable to remove observer",
+        "members": [
+            {
+                "id": 7,
+                "badge": 8
+            },
+            {
+                "id": 3,
+                "badge": 7
+            },
+            {
+                "id": 7,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "ticket": "FLPG-17276",
+        "icon": 11,
+        "sprintid": 4,
+        "title": "Building Details Page - Removing Approver with EEM Observer checked does not remove as Observer",
+        "members": [
+            {
+                "id": 7,
+                "badge": 8
+            },
+            {
+                "id": 3,
+                "badge": 7
+            },
+            {
+                "id": 7,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "ticket": "FLPG-17093",
+        "icon": 14,
+        "sprintid": 4,
+        "title": "Building List Page Approvers/Observers - cannot be added twice as EEM observers",
+        "members": [
+            {
+                "id": 5,
+                "badge": 3
+            },
+            {
+                "id": 7,
+                "badge": 8
+            },
+            {
+                "id": 3,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "ticket": "FLPG-16871",
+        "icon": 15,
+        "sprintid": 4,
+        "title": "Monroe 1 BOCES NY - Print enrollment form error",
+        "members": [
+            {
+                "id": 4,
+                "badge": 8
+            },
+            {
+                "id": 3,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "ticket": "FLPG-15213",
+        "sprintid": 4,
+        "title": "Building Pages E2E testing",
+        "members": [
+            {
+                "id": 2,
+                "badge": "add users for role checking"
+            },
+            {
+                "id": 2,
+                "badge": "create test case scenario of whole building list epic"
             }
         ]
     }

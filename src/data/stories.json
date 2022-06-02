@@ -913,5 +913,311 @@
                 "badge": "create test case scenario of whole building list epic"
             }
         ]
+    },
+    {
+        "id": 48,
+        "ticket": "FLPG-18457",
+        "icon": 11,
+        "sprintid": 1,
+        "title": "EEM Form Locking Form Setting Visible to all on PROD",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "ticket": "FLPG-18454",
+        "icon": 14,
+        "sprintid": 1,
+        "title": "Revert FLPG-18191 : EEM Austin Observer Script",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "ticket": "FLPG-18409",
+        "icon": 14,
+        "sprintid": 1,
+        "title": "MGJ News & Info - Pull Title into banner only",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "ticket": "FLPG-18406",
+        "icon": 14,
+        "sprintid": 1,
+        "title": "Modify Evaluation Cycle import to work with users who have no ACTIVE cycles",
+        "members": [
+            {
+                "id": 1,
+                "badge": 8
+            },
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "ticket": "FLPG-18403",
+        "icon": 14,
+        "sprintid": 1,
+        "title": "Add a bulk Finalize-Only option to the Rollover Tool",
+        "members": [
+            {
+                "id": 8,
+                "badge": 8
+            },
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "ticket": "FLPG-18397",
+        "sprintid": 1,
+        "title": "Performance Testing -  JMeter",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "ticket": "FLPG-18337",
+        "icon": 14,
+        "sprintid": 1,
+        "title": "MGJ News & Info - 2 refinements",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "ticket": "FLPG-18046",
+        "icon": 11,
+        "sprintid": 1,
+        "title": "PG Configs admins should not have access to other Building Pages not in their District",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 8,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "ticket": "FLPG-17942",
+        "icon": 11,
+        "sprintid": 1,
+        "title": "EEM observers can be added twice without refreshing",
+        "members": [
+            {
+                "id": 3,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 7
+            },
+            {
+                "id": 1,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "ticket": "FLPG-17787",
+        "icon": 11,
+        "sprintid": 1,
+        "title": "Waynesville R-VI, MO EEM Form Error Invalid Column Name",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 4,
+                "badge": 7
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "ticket": "FLPG-17638",
+        "icon": 14,
+        "sprintid": 1,
+        "title": "EEM Evaluation Rights - Delete All  Button doesn't seem to work",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "ticket": "FLPG-17553",
+        "icon": 14,
+        "sprintid": 1,
+        "title": "Activity Formats - Add/Edit",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "ticket": "FLPG-17548",
+        "icon": 14,
+        "sprintid": 1,
+        "title": "Activity Formats - Link to page & Grid",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "ticket": "FLPG-17494",
+        "icon": 14,
+        "sprintid": 1,
+        "title": "Configuration > Forms & Data - Show & manage Inactive entries",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "ticket": "FLPG-17484",
+        "icon": 14,
+        "sprintid": 1,
+        "title": "Configuration > Forms & Data - Make Active/Inactive in grid",
+        "members": [
+            {
+                "id": 8,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
     }
 ]

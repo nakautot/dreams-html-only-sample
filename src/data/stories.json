@@ -1219,5 +1219,320 @@
                 "badge": 3
             }
         ]
+    },
+    {
+        "id": 63,
+        "ticket": "FLPG-18698",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Performance Testing : JMeter - Building",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "ticket": "FLPG-18689",
+        "icon": 11,
+        "sprintid": 5,
+        "title": "Tripp-Delmont School Dist 33-5, SD - Rogue component listed in User's cycle",
+        "members": [
+            {
+                "id": 8,
+                "badge": 8
+            },
+            {
+                "id": 5,
+                "badge": 7
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "ticket": "FLPG-18637",
+        "icon": 16,
+        "sprintid": 5,
+        "title": "Eternia 5: Pre-Release Testing",
+        "members": [
+            {
+                "id": 7,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "ticket": "FLPG-18470",
+        "sprintid": 5,
+        "title": "Test Plan for config pages",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 8,
+                "badge": 8
+            },
+            {
+                "id": 2,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "ticket": "FLPG-18467",
+        "icon": 15,
+        "sprintid": 5,
+        "title": "Lenoir City Schools, TN - EEM Form Issue",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 8,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "ticket": "FLPG-18444",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Building info/Approver/observers page - surface correct # of additional observers",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "ticket": "FLPG-18416",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "EEM Form Locking PREF - Update setting name - follow up",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 8,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "ticket": "FLPG-18394",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "MGJ - Where I've Been - Instructions",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 8,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "ticket": "FLPG-18214",
+        "icon": 15,
+        "sprintid": 5,
+        "title": "Richfield Public Schools 280, MN - User History unable to view portfolio",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 8,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 72,
+        "ticket": "FLPG-18149",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "EEM Edit Locked Form Pref -Pref should not be visible when district setting is off",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 73,
+        "ticket": "FLPG-18042",
+        "icon": 11,
+        "sprintid": 5,
+        "title": "Barneveld School District, WI - Component Manager Issue ",
+        "members": [
+            {
+                "id": 8,
+                "badge": 8
+            },
+            {
+                "id": 4,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "ticket": "FLPG-17701",
+        "icon": 17,
+        "sprintid": 5,
+        "title": "Remove old, unused versions of jquery from all repos",
+        "members": [
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "ticket": "FLPG-17406",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Position Types - Link to Page & Grid",
+        "members": [
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "ticket": "FLPG-17403",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Funding Sources - Add/Edit",
+        "members": [
+            {
+                "id": 1,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "ticket": "FLPG-17402",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Funding Sources - Link to page & grid",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "ticket": "FLPG-15078",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Building List Page EEM Observer Section - Refinements",
+        "members": [
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
     }
 ]

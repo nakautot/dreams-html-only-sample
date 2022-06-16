@@ -136,4 +136,38 @@
     "memberid": 1,
     "badgeid": 3,
     "sprintid": 4
+},
+
+{
+    "memberid": 1,
+    "badgeid": 2,
+    "sprintid": 5
+},{
+    "memberid": 6,
+    "badgeid": 2,
+    "sprintid": 5
+},{
+    "memberid": 8,
+    "badgeid": 2,
+    "sprintid": 5
+},{
+    "memberid": 4,
+    "badgeid": 4,
+    "sprintid": 5
+},{
+    "memberid": 3,
+    "badgeid": 3,
+    "sprintid": 5
+},{
+    "memberid": 4,
+    "badgeid": 3,
+    "sprintid": 5
+},{
+    "memberid": 5,
+    "badgeid": 3,
+    "sprintid": 5
+},{
+    "memberid": 7,
+    "badgeid": 3,
+    "sprintid": 5
 }]

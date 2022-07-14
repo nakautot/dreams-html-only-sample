@@ -1534,5 +1534,678 @@
                 "badge": 3
             }
         ]
+    },
+    {
+        "id": 79,
+        "ticket": "FLPG-19038",
+        "icon": 11,
+        "sprintid": 6,
+        "title": "Community Unit School District 300, IL Finalize Only User Error in Past Cycle View",
+        "members": [
+            {
+                "id": 8,
+                "badge": 8
+            },
+            {
+                "id": 5,
+                "badge": 7
+            },
+            {
+                "id": 8,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "ticket": "FLPG-19023",
+        "icon": 17,
+        "sprintid": 6,
+        "title": "E2E on Building site-config page",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "ticket": "FLPG-19019",
+        "sprintid": 6,
+        "title": "JMeter - AWS environment",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "ticket": "FLPG-18948",
+        "icon": 11,
+        "sprintid": 6,
+        "title": "Cannot Add An Evaluation Component Template",
+        "members": [
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "ticket": "FLPG-18878",
+        "icon": 14,
+        "sprintid": 6,
+        "title": "Building Banner update - Update to text and icon only",
+        "members": [
+            {
+                "id": 8,
+                "badge": 8
+            },
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "ticket": "FLPG-18836",
+        "icon": 15,
+        "sprintid": 6,
+        "title": "PLM Report Writer - Date Updated Error",
+        "members": [
+            {
+                "id": 2,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "ticket": "FLPG-18752",
+        "icon": 14,
+        "sprintid": 6,
+        "title": "Purposes - on screen - instruction",
+        "members": [
+            {
+                "id": 8,
+                "badge": 8
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "ticket": "FLPG-18378",
+        "icon": 11,
+        "sprintid": 6,
+        "title": "Lindenhurst UFSD, NY - Unable to approve form because absence selection missing",
+        "members": [
+            {
+                "id": 2,
+                "badge": 8
+            },
+            {
+                "id": 4,
+                "badge": 7
+            },
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 89,
+        "ticket": "FLPG-18250",
+        "icon": 15,
+        "sprintid": 6,
+        "title": "Oklahoma City SD, OK - Close out all instructor confirmed activities except \"meeting\"",
+        "members": [
+            {
+                "id": 2,
+                "badge": 8
+            },
+            {
+                "id": 8,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 90,
+        "ticket": "FLPG-17719",
+        "icon": 14,
+        "sprintid": 6,
+        "title": "Purposes - Link to Page & Grid",
+        "members": [
+            {
+                "id": 2,
+                "badge": 8
+            },
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 91,
+        "ticket": "FLPG-17718",
+        "icon": 14,
+        "sprintid": 6,
+        "title": "Purposes - Add/edit",
+        "members": [
+            {
+                "id": 2,
+                "badge": 8
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 92,
+        "ticket": "FLPG-17704",
+        "icon": 17,
+        "sprintid": 6,
+        "title": "Dead code: Remove old dashboard code",
+        "members": [
+            {
+                "id": 8,
+                "badge": 8
+            },
+            {
+                "id": 8,
+                "badge": 2
+            },
+            {
+                "id": 6,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 93,
+        "ticket": "FLPG-17577",
+        "icon": 14,
+        "sprintid": 6,
+        "title": "Position Types - Add/edit",
+        "members": [
+            {
+                "id": 6,
+                "badge": "Add Position Type to Configuration > Forms & Data to sidebar"
+            },
+            {
+                "id": 2,
+                "badge": 8
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 94,
+        "ticket": "FLPG-17405",
+        "icon": 14,
+        "sprintid": 6,
+        "title": "Payment Formats - Add/edit",
+        "members": [
+            {
+                "id": 2,
+                "badge": 8
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 95,
+        "ticket": "FLPG-17404",
+        "icon": 14,
+        "sprintid": 6,
+        "title": "Payment Formats - Link to Page & Grid",
+        "members": [
+            {
+                "id": 2,
+                "badge": 8
+            },
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 96,
+        "ticket": "FLPG-16953",
+        "icon": 14,
+        "sprintid": 6,
+        "title": "Include asterisks for required fields for COURSE CODE PDI import",
+        "members": [
+            {
+                "id": 8,
+                "badge": 8
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 97,
+        "ticket": "FLPG-19212",
+        "icon": 15,
+        "sprintid": 7,
+        "title": "Evaluation Cycle import - troubleshoot cases where changes not taking after import",
+        "members": [
+            {
+                "id": 8,
+                "badge": 3
+            },
+            {
+                "id": 4,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 98,
+        "ticket": "FLPG-19194",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Run \"Rollover\" Purpose script on PLM sites 7/1/2022",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 99,
+        "ticket": "FLPG-18437",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Building Details Page - only surface users in search with Is District admin bit",
+        "members": [
+            {
+                "id": 7,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 2,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 100,
+        "ticket": "FLPG-18746",
+        "icon": 15,
+        "sprintid": 7,
+        "title": "Request for New DPI Demo Site",
+        "members": [
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 3,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 101,
+        "ticket": "FLPG-18211",
+        "icon": 15,
+        "sprintid": 7,
+        "title": "Willingboro Public Schools, NJ :: Past Cycle View Forms missing score calculations.",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 8,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 102,
+        "ticket": "FLPG-18584",
+        "icon": 11,
+        "sprintid": 7,
+        "title": "Scarsdale UFSD, NY - Approval Required (proposal) Default to No not sticking (Admin)",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 7,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 7
+            },
+            {
+                "id": 7,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 103,
+        "ticket": "FLPG-18972",
+        "icon": 11,
+        "sprintid": 7,
+        "title": "School Board of Highlands County, FL My Growth Journey - Dismissed course keeps resurfacing",
+        "members": [
+            {
+                "id": 5,
+                "badge": 7
+            },
+            {
+                "id": 2,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 104,
+        "ticket": "FLPG-18897",
+        "icon": 15,
+        "sprintid": 7,
+        "title": "Bucks County IU WR, PA - Payment Statement Printing is cut off on the right",
+        "members": [
+            {
+                "id": 8,
+                "badge": 3
+            },
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 105,
+        "ticket": "FLPG-19322",
+        "icon": 11,
+        "sprintid": 7,
+        "title": "Washington County Public Schools, MD - EEM Report Writer - Matrix causes report failure.",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 7,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 7
+            },
+            {
+                "id": 7,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 106,
+        "ticket": "FLPG-17723",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Salary Steps -Link to page & grid",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 7,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 107,
+        "ticket": "FLPG-17721",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Salary Steps - Add/Edit",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 108,
+        "ticket": "FLPG-17407",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Course Code - Link to Page & Controls",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 109,
+        "ticket": "FLPG-17748",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Course Codes - Add/Edit",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 8
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 110,
+        "ticket": "FLPG-18528",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Evaluation Methods -Link to page & grid",
+        "members": [
+            {
+                "id": 2,
+                "badge": 3
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 111,
+        "ticket": "FLPG-18531",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Evaluation Methods - Add/edit",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 112,
+        "ticket": "FLPG-19225",
+        "icon": 17,
+        "sprintid": 7,
+        "title": "turn all files into one sql file- one per table.",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 113,
+        "ticket": "FLPG-19228",
+        "icon": 17,
+        "sprintid": 7,
+        "title": "E2E automation building approvers",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 114,
+        "ticket": "FLPG-19231",
+        "icon": 17,
+        "sprintid": 7,
+        "title": "E2E Building observers",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
     }
 ]

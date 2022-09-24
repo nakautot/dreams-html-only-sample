@@ -1,36 +1,41 @@
 [{
     "id": 2,
-    "order": 5,
+    "order": 6,
     "name":"ES4D",
     "current":false
 }, {
     "id": 1,
-    "order": 4,
+    "order": 5,
     "name":"ES5D",
     "current":false
 }, {
     "id": 3,
-    "order": 6,
+    "order": 7,
     "name":"ES3D",
     "current":false
 }, {
     "id": 4,
-    "order": 7,
+    "order": 8,
     "name":"ES2D",
     "current":false
 }, {
     "id": 5,
-    "order": 3,
+    "order": 4,
     "name":"ES6D",
     "current":false
 }, {
     "id": 6,
-    "order": 2,
+    "order": 3,
     "name":"SM1D",
     "current":false
 }, {
     "id": 7,
-    "order": 1,
+    "order": 2,
     "name":"SM2D",
+    "current":false
+}, {
+    "id": 8,
+    "order": 1,
+    "name":"SM3D",
     "current":true
 }]

@@ -2207,5 +2207,487 @@
                 "badge": 3
             }
         ]
+    },
+    {
+        "id": 115,
+        "ticket": "FLPG-17325",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Run EEM Observer script (All Platform PG customers) when building pages are implemented",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 116,
+        "ticket": "FLPG-19407",
+        "icon": 11,
+        "sprintid": 8,
+        "title": "REASSESS changes to:  Community Unit School District 300, IL Finalize Only User Error in Past Cycle View",
+        "members": [
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 6,
+                "badge": 7
+            },
+            {
+                "id": 5,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 117,
+        "ticket": "FLPG-19434",
+        "icon": 16,
+        "sprintid": 8,
+        "title": "Create IDM Trigger",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 7,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 118,
+        "ticket": "FLPG-19515",
+        "icon": 11,
+        "sprintid": 8,
+        "title": "E2E Automation Test Error In MGJ ",
+        "members": [
+            {
+                "id": 2,
+                "badge": 3
+            },
+            {
+                "id": 8,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 120,
+        "ticket": "FLPG-19404",
+        "icon": 16,
+        "sprintid": 8,
+        "title": "SM2: Prelease Testing",
+        "members": [
+            {
+                "id": 8,
+                "badge": 3
+            },
+            {
+                "id": 8,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 121,
+        "ticket": "FLPG-18978",
+        "icon": 11,
+        "sprintid": 8,
+        "title": "SQL deadlock when running the JMeter Load Test",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 4,
+                "badge": 7
+            },
+            {
+                "id": 2,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 122,
+        "ticket": "FLPG-19441",
+        "sprintid": 8,
+        "title": "PAIR PROGRAM- REASSESS changes to:  Community Unit School District 300, IL Finalize Only User Error in Past Cycle View",
+        "members": [
+            {
+                "id": 5,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 123,
+        "ticket": "FLPG-19559",
+        "icon": 11,
+        "sprintid": 8,
+        "title": "Johnson County School District #1, WY",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 1,
+                "badge": 7
+            }
+        ]
+    },
+    {
+        "id": 124,
+        "ticket": "FLPG-19311",
+        "icon": 17,
+        "sprintid": 8,
+        "title": "e2e finalize only",
+        "members": [
+            {
+                "id": 5,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 125,
+        "ticket": "FLPG-19303",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Building Message UPDATE UX & alignment",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 126,
+        "ticket": "FLPG-19400",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Building List Filtering Move toggle to top-right of page",
+        "members": [
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 127,
+        "ticket": "FLPG-19299",
+        "sprintid": 8,
+        "title": "Design Spike - Review different components of Manage Events pages",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 128,
+        "ticket": "FLPG-17334",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Config Page - Title of new page: Professional Learning Config",
+        "members": [
+            {
+                "id": 7,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 129,
+        "ticket": "FLPG-18963",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "React App : Base URL - Any user can get there and see the links at the top (even though they're not ready for primetime)",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 2,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 131,
+        "ticket": "FLPG-18735",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Follow Ups - on screen - instruction",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 2,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 132,
+        "ticket": "FLPG-18519",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Categories - Bankable Hours - instruction",
+        "members": [
+            {
+                "id": 5,
+                "badge": 3
+            },
+            {
+                "id": 7,
+                "badge": 2
+            },
+            {
+                "id": 2,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 133,
+        "ticket": "FLPG-18537",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Follow Ups - Link to Page & Grid",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 134,
+        "ticket": "FLPG-18540",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Follow Ups - Add/edit",
+        "members": [
+            {
+                "id": 8,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 2,
+                "badge": 8
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 135,
+        "ticket": "FLPG-18516",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Categories - Link to Page & Grid",
+        "members": [
+            {
+                "id": 2,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 2,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 136,
+        "ticket": "FLPG-18523",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Categories - Add/Edit",
+        "members": [
+            {
+                "id": 2,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 2,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 137,
+        "ticket": "FLPG-19433",
+        "icon": 16,
+        "sprintid": 8,
+        "title": "Remove Kermit and Carey Grant gifs",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 2,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 138,
+        "ticket": "FLPG-19526",
+        "icon": 11,
+        "sprintid": 8,
+        "title": "E2E Automation Test Error In Activities_MultiResource_EndToEnd_PreRegister",
+        "members": [
+            {
+                "id": 8,
+                "badge": 3
+            },
+            {
+                "id": 8,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 7
+            }
+        ]
+    },
+    {
+        "id": 139,
+        "ticket": "FLPG-19534",
+        "icon": 11,
+        "sprintid": 8,
+        "title": "E2E Automation Test Error In ScheduledReport_VerifyUserAbleToCreateReportWithRunNow",
+        "members": [
+            {
+                "id": 8,
+                "badge": 3
+            },
+            {
+                "id": 8,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 7
+            }
+        ]
+    },
+    {
+        "id": 140,
+        "ticket": "FLPG-19583",
+        "icon": 11,
+        "sprintid": 8,
+        "title": "Penn-Delco School District, PA PG Legacy to Platform Migration",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 7
+            }
+        ]
     }
 ]

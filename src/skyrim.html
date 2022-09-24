@@ -1,0 +1,194 @@
+<div id="main">
+<div id="checks"></div>
+<hr/>
+<div id="recipe"></div>
+</div>
+<script>
+var ingredients = [
+    "Hanging Moss",
+    "Taproot",
+    "Blue Mountain Flower",
+    "Scaly Pholiata",
+    "Dragon's Tongue",
+    "Creep Cluster",
+    "Wheat",
+    "Moon Sugar",
+    "Tundra Cotton",
+    "Jazbay Grapes", 
+    "Salt Pile",
+    "Fire Salts",
+    "Spider Egg",
+    "Fly Amanita", 
+    "Troll Fat",
+    "Nordic Barnacle",
+    "Giant's Toe",
+    "Deathbell",
+    "Vampire Dust",
+    "Nightshade",
+    "Frost Salts",
+    "Bone Meal",
+    "Glow Dust",
+    "Garlic",
+    "Silverside Perch",
+    "Chicken Egg",
+    "Torchbug Thorax",
+    "Swamp Fungal Pod",
+    "Chaurus Eggs",
+    "White Cap",
+    "Ice Wraith Teeth", 
+    "Bear Claws", 
+    "Spriggan Sap", 
+    "Blisterwort", 
+    "Imp Stool", 
+    "Canis Root", 
+    "Dwarven Oil", 
+    "Lavender", 
+    "Large Antlers", 
+    "Bleeding Crown", 
+    "Void Salts", 
+    "Thistle Branch", 
+    "Charred Skeever Hide", 
+    "Slaughterfish Egg", 
+    "Namira's Root",
+    "Hagraven Feathers", 
+    "Butterfly Wing", 
+    "Nirnroot", 
+    "Cyrodilic Spadetail", 
+    "Luna Moth Wing", 
+    "Pine Thrush Egg", 
+    "Grass Pod", 
+    "Skeever Tail", 
+    "River Betty", 
+    "Saber Cat Tooth", 
+    "Frost Mirriam", 
+    "Juniper Berries", 
+    "Rock Warbler Egg", 
+    "Elves Ear", 
+    "Slaughterfish Scales", 
+    "Snowberries", 
+    "Mudcrab Chitin", 
+    "Orange Dartwing",
+    "Purple Mountain Flower"
+];
+
+var recipe = [   
+    [6, 16, 5],
+    [16, 6],
+    [2, 0, 45],
+    [17, 10, 1],
+    [2, 0, 46],
+    [11, 10, 17],
+    [11, 10, 7],
+    [11, 10, 5],
+    [5, 3, 16],
+    [2, 0, 15],
+    [2, 0, 28],
+    [29, 30, 18],
+    [0, 31, 25],
+    [29, 30, 47],
+    [3, 1, 5],
+    [2, 0],
+    [0, 6, 19],
+    [20, 7, 11],
+    [20, 7, 1],
+    [32, 15, 0],
+    [0, 12, 33],
+    [0, 12, 21],
+    [0, 12, 48],
+    [3, 1, 9],
+    [27, 34],
+    [4, 13, 14],
+    [49, 28],
+    [35, 34],
+    [35, 27],
+    [0, 50, 12],
+    [36, 1, 4],
+    [19, 25],
+    [0, 32],
+    [0, 22],
+    [22, 12, 0],
+    [36, 10, 51],
+    [37, 23, 18],
+    [24, 6, 2],
+    [5, 3],
+    [1, 9, 5],
+    [0, 6, 52],
+    [17, 38],
+    [17, 53],
+    [17, 10],
+    [38, 53],
+    [38, 10],
+    [53, 10],
+    [8, 39, 40],
+    [25, 31, 19],
+    [44, 15],
+    [13, 14],
+    [10, 9],
+    [10, 1],
+    [9, 1],
+    [22, 12],
+    [21, 14, 4],
+    [54, 41, 42],
+    [62, 43],
+    [55, 63],
+    [4, 13],
+    [11, 7],
+    [11, 1],
+    [7, 1],
+    [44, 15],
+    [23, 43],
+    [63, 26, 24],
+    [4, 40, 8],
+    [23, 56],
+    [23, 7],
+    [13, 3],
+    [2, 27, 6],
+    [8, 39],
+    [38, 63, 26],
+    [24, 9],
+    [35, 57],
+    [20, 7],
+    [21, 33, 14],
+    [37, 20, 26],
+    [58, 11],
+    [4, 8, 3],
+    [3, 1],
+    [59, 41],
+    [4, 8, 60],
+    [42, 61, 18]
+];
+
+var omitList = [];
+
+var sorted = ingredients.map(m => m).sort();
+var c1 = sorted.slice(0, 16);
+var c2 = sorted.slice(16, 32);
+var c3 = sorted.slice(32, 48);
+var c4 = sorted.slice(48, 64);
+
+function omit (ing, id) {
+    if(ing.checked) {
+        omitList = [id, ...omitList];
+    } else {
+        omitList = omitList.filter(m => m != id);
+    }
+    showList();
+}
+
+function showList () {    
+    document.querySelector("#recipe").innerHTML = recipe
+        .filter(m => m.filter(n => omitList.indexOf(n) > -1).length === 0)
+        .map(m => `<div>${m.map(n => ingredients[n])
+        .join(",")}</div>`).join("");
+}
+
+var html ="";
+for(i = 0; i < 16; i++) {
+    var row = [c1[i], c2[i], c3[i], c4[i]].map(m => `<td><input type="checkbox" onclick="omit(this, ${ingredients.indexOf(m)})">${m}</td>`);
+    html += `<tr>${row.join("")}</tr>`;
+}
+
+showList();
+
+document.querySelector("#checks").innerHTML = `<table><tbody>${html}</tbody></table>`;
+</script>

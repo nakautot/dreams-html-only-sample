@@ -178,8 +178,7 @@ function omit (ing, id) {
 function showList () {    
     document.querySelector("#recipe").innerHTML = recipe
         .filter(m => m.filter(n => omitList.indexOf(n) > -1).length === 0)
-        .map(m => `<div>${m.map(n => ingredients[n])
-        .join(",")}</div>`).join("");
+        .map(m => `<div>${m.map(n => ingredients[n]).sort().join(",")}</div>`).join("");
 }
 
 var html ="";
@@ -188,7 +187,7 @@ for(i = 0; i < 16; i++) {
     html += `<tr>${row.join("")}</tr>`;
 }
 
-showList();
-
 document.querySelector("#checks").innerHTML = `<table><tbody>${html}</tbody></table>`;
+
+showList();
 </script>

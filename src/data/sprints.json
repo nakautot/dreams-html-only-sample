@@ -1,16 +1,16 @@
 [{
     "id": 2,
-    "order": 6,
+    "order": 11,
     "name":"ES4D",
     "current":false
 }, {
     "id": 1,
-    "order": 5,
+    "order": 10,
     "name":"ES5D",
     "current":false
 }, {
     "id": 3,
-    "order": 7,
+    "order": 9,
     "name":"ES3D",
     "current":false
 }, {
@@ -20,22 +20,37 @@
     "current":false
 }, {
     "id": 5,
-    "order": 4,
+    "order": 7,
     "name":"ES6D",
     "current":false
 }, {
     "id": 6,
-    "order": 3,
+    "order": 6,
     "name":"SM1D",
     "current":false
 }, {
     "id": 7,
-    "order": 2,
+    "order": 5,
     "name":"SM2D",
     "current":false
 }, {
     "id": 8,
-    "order": 1,
+    "order": 4,
     "name":"SM3D",
+    "current":false
+}, {
+    "id": 9,
+    "order": 3,
+    "name":"SM4D",
+    "current":false
+}, {
+    "id": 10,
+    "order": 2,
+    "name":"SM5D",
+    "current":false
+}, {
+    "id": 11,
+    "order": 1,
+    "name":"SM6D",
     "current":true
 }]

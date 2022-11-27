@@ -2689,5 +2689,913 @@
                 "badge": 7
             }
         ]
+    },
+    {
+        "id": 142,
+        "ticket": "FLPG-19886",
+        "icon": 17,
+        "sprintid": 9,
+        "title": "Upgrade .Net on PDEPLatformTools ",
+        "members": [
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 143,
+        "ticket": "FLPG-19823",
+        "icon": 11,
+        "sprintid": 9,
+        "title": "Capitalization of All Titles on all config pages",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 144,
+        "ticket": "FLPG-19792",
+        "icon": 11,
+        "sprintid": 9,
+        "title": "Delete All Evaluation rights button - throws server side error.",
+        "members": [
+            {
+                "id": 7,
+                "badge": 8
+            },
+            {
+                "id": 7,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 145,
+        "ticket": "FLPG-19711",
+        "icon": 11,
+        "sprintid": 9,
+        "title": "EEM Past Cycle View - Cannot Edit Forms Properly",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 147,
+        "ticket": "FLPG-19611",
+        "sprintid": 9,
+        "title": "Design Spike - Categories NYS ",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 148,
+        "ticket": "FLPG-19522",
+        "icon": 11,
+        "sprintid": 9,
+        "title": "E2E Automation Test Error In Activities_MultiResource_EndToEnd",
+        "members": [
+            {
+                "id": 8,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 149,
+        "ticket": "FLPG-19500",
+        "icon": 11,
+        "sprintid": 9,
+        "title": "Brighton CSD, NY YVONNE CHINNICI can not drop this course",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 7
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 150,
+        "ticket": "FLPG-19273",
+        "icon": 11,
+        "sprintid": 9,
+        "title": "Position and Payment Formats ",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 7
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 151,
+        "ticket": "FLPG-18546",
+        "icon": 14,
+        "sprintid": 9,
+        "title": "Locations - Link to Page & Grid",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 152,
+        "ticket": "FLPG-18543",
+        "icon": 14,
+        "sprintid": 9,
+        "title": "Locations- Add/edit",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 153,
+        "ticket": "FLPG-18264",
+        "icon": 14,
+        "sprintid": 9,
+        "title": "External Provider list- Access Page",
+        "members": [
+            {
+                "id": 2,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 154,
+        "ticket": "FLPG-18261",
+        "icon": 14,
+        "sprintid": 9,
+        "title": "External Provider list- new sidekick name",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 6,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 155,
+        "ticket": "FLPG-17305",
+        "icon": 17,
+        "sprintid": 9,
+        "title": "Remove Feature Flags for building/automation/MGJ_POST LAUNCH",
+        "members": [
+            {
+                "id": 2,
+                "badge": 8
+            },
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 156,
+        "ticket": "FLPG-20031",
+        "icon": 14,
+        "sprintid": 10,
+        "title": "External Providers Page - UX change -  buttons to text",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 7,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 157,
+        "ticket": "FLPG-19984",
+        "icon": 14,
+        "sprintid": 10,
+        "title": "External Provider list- Access Page (redirection from sidekick)",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 158,
+        "ticket": "FLPG-19771",
+        "icon": 17,
+        "sprintid": 10,
+        "title": "Config Layout - Configurable Option Button",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 159,
+        "ticket": "FLPG-19768",
+        "icon": 17,
+        "sprintid": 10,
+        "title": "Config Layout - Configurable Action Column",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 160,
+        "ticket": "FLPG-19765",
+        "icon": 17,
+        "sprintid": 10,
+        "title": "Config Layout - Configurable Add Button",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 161,
+        "ticket": "FLPG-19729",
+        "icon": 17,
+        "sprintid": 10,
+        "title": "Config Layout - Configurable select column",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 162,
+        "ticket": "FLPG-19206",
+        "icon": 14,
+        "sprintid": 10,
+        "title": "External Provider list- Outside Provider checkbox",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 7,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 163,
+        "ticket": "FLPG-19200",
+        "icon": 14,
+        "sprintid": 10,
+        "title": "External Provider list-  Add action",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 7,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 164,
+        "ticket": "FLPG-20074",
+        "icon": 16,
+        "sprintid": 10,
+        "title": "Create Feature Flag for Categories",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 165,
+        "ticket": "FLPG-20034",
+        "icon": 14,
+        "sprintid": 10,
+        "title": "Locations- Include default text in address fields",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 2,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 166,
+        "ticket": "FLPG-20019",
+        "icon": 11,
+        "sprintid": 10,
+        "title": "CLONE - EEM Past Cycle View - Cannot Edit Forms Properly",
+        "members": [
+            {
+                "id": 1,
+                "badge": 7
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 167,
+        "ticket": "FLPG-19858",
+        "icon": 15,
+        "sprintid": 10,
+        "title": "Hewlett-Woodmere, NY - Edit past cycle dates for 21/22 past cycle so the system read 9/1/2021 - 6/30/2022. ",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 168,
+        "ticket": "FLPG-19306",
+        "sprintid": 10,
+        "title": "Design Spike - Review different components of PD Plan pages",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 169,
+        "ticket": "FLPG-20130",
+        "icon": 11,
+        "sprintid": 10,
+        "title": "Educational Service Unit #7, NE Archive Form Export Error",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 4,
+                "badge": 7
+            },
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 170,
+        "ticket": "FLPG-20037",
+        "icon": 11,
+        "sprintid": 10,
+        "title": "WR - DCMO BOCES Print Flyer not working",
+        "members": [
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 7
+            },
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 171,
+        "ticket": "FLPG-19569",
+        "icon": 11,
+        "sprintid": 10,
+        "title": "Lansingburgh CSD, NY User Unable to Drop/Delete Denied Activities",
+        "members": [
+            {
+                "id": 4,
+                "badge": 7
+            },
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 5,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 172,
+        "ticket": "FLPG-19190",
+        "icon": 11,
+        "sprintid": 10,
+        "title": "Harrisburg School District, PA PLM Evaluation Results Erroring when trying to Export ",
+        "members": [
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 7
+            },
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 2,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 173,
+        "ticket": "FLPG-20199",
+        "sprintid": 10,
+        "title": "Design Discussion on: PROD issues caused by FLPG-19407, so the fix was rolled back",
+        "members": [
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 174,
+        "ticket": "FLPG-18816",
+        "icon": 14,
+        "sprintid": 10,
+        "title": "Manage Events - Link to Page & Grid",
+        "members": [
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 1,
+                "badge": 8
+            },
+            {
+                "id": 5,
+                "badge": "Add Manage Events behind FF "
+            },
+            {
+                "id": 5,
+                "badge": "Add Toggle Active API"
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 175,
+        "ticket": "FLPG-19966",
+        "icon": 11,
+        "sprintid": 10,
+        "title": "pg-plm-ui: It looks like all Contexts get executed twice",
+        "members": [
+            {
+                "id": 5,
+                "badge": 8
+            },
+            {
+                "id": 7,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 176,
+        "ticket": "FLPG-19726",
+        "icon": 17,
+        "sprintid": 10,
+        "title": "[High Security] Open Url Redirection in mlp-pdms.net",
+        "members": [
+            {
+                "id": 7,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 178,
+        "ticket": "FLPG-19469",
+        "icon": 11,
+        "sprintid": 10,
+        "title": "Appleton ASD, WI Video stuck \"in progress\" on MGJ and won't dismiss",
+        "members": [
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 179,
+        "ticket": "FLPG-20118",
+        "icon": 11,
+        "sprintid": 11,
+        "title": "pg-plm-ui: Grades, Groups, Depts, Buildings data loading for all pages",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 1,
+                "badge": 7
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 8
+            }
+        ]
+    },
+    {
+        "id": 180,
+        "ticket": "FLPG-19864",
+        "sprintid": 11,
+        "title": "Design Spike (MGJ Decoupling)",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 181,
+        "ticket": "FLPG-19866",
+        "sprintid": 11,
+        "title": "Design Sketch - Component Manager Performance",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 182,
+        "ticket": "FLPG-20347",
+        "icon": 11,
+        "sprintid": 11,
+        "title": "Interboro Area SD, PA Users have duplicate buildings",
+        "members": [
+            {
+                "id": 4,
+                "badge": 7
+            },
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 7,
+                "badge": 8
+            },
+            {
+                "id": 7,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 183,
+        "ticket": "FLPG-20299",
+        "icon": 17,
+        "sprintid": 11,
+        "title": "MLP-PDMS.Api - Open URL Redirection",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 7,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 184,
+        "ticket": "FLPG-20296",
+        "icon": 17,
+        "sprintid": 11,
+        "title": "MLP-PDMS.Net - Open URL Redirection ",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 7,
+                "badge": 8
+            },
+            {
+                "id": 7,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 185,
+        "ticket": "FLPG-20289",
+        "icon": 14,
+        "sprintid": 11,
+        "title": "Setting for auto eval rights disabled when building observer data hasn't been migrated",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 186,
+        "ticket": "FLPG-20276",
+        "icon": 14,
+        "sprintid": 11,
+        "title": "Manage Events name changed to \"Events\" on page and grid",
+        "members": [
+            {
+                "id": 1,
+                "badge": 8
+            },
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 2,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 187,
+        "ticket": "FLPG-20288",
+        "icon": 14,
+        "sprintid": 11,
+        "title": "District Prov. Tool: Button runs script to migrate data for EEM building observers",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 188,
+        "ticket": "FLPG-20287",
+        "icon": 14,
+        "sprintid": 11,
+        "title": "District Prov. Tool: Button shows for platform districts that still need observer data migrated",
+        "members": [
+            {
+                "id": 6,
+                "badge": 8
+            },
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
     }
 ]

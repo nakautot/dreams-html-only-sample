@@ -901,6 +901,7 @@
     {
         "id": 47,
         "ticket": "FLPG-15213",
+        "icon": 14,
         "sprintid": 4,
         "title": "Building Pages E2E testing",
         "members": [
@@ -1576,6 +1577,7 @@
     {
         "id": 81,
         "ticket": "FLPG-19019",
+        "icon": 14,
         "sprintid": 6,
         "title": "JMeter - AWS environment",
         "members": [
@@ -2333,6 +2335,7 @@
     {
         "id": 122,
         "ticket": "FLPG-19441",
+        "icon": 14,
         "sprintid": 8,
         "title": "PAIR PROGRAM- REASSESS changes to:  Community Unit School District 300, IL Finalize Only User Error in Past Cycle View",
         "members": [
@@ -2429,6 +2432,7 @@
     {
         "id": 127,
         "ticket": "FLPG-19299",
+        "icon": 14,
         "sprintid": 8,
         "title": "Design Spike - Review different components of Manage Events pages",
         "members": [
@@ -2781,6 +2785,7 @@
     {
         "id": 147,
         "ticket": "FLPG-19611",
+        "icon": 14,
         "sprintid": 9,
         "title": "Design Spike - Categories NYS ",
         "members": [
@@ -3201,6 +3206,7 @@
     {
         "id": 168,
         "ticket": "FLPG-19306",
+        "icon": 14,
         "sprintid": 10,
         "title": "Design Spike - Review different components of PD Plan pages",
         "members": [
@@ -3313,6 +3319,7 @@
     {
         "id": 173,
         "ticket": "FLPG-20199",
+        "icon": 14,
         "sprintid": 10,
         "title": "Design Discussion on: PROD issues caused by FLPG-19407, so the fix was rolled back",
         "members": [
@@ -3339,11 +3346,11 @@
             },
             {
                 "id": 5,
-                "badge": "Add Manage Events behind FF "
+                "badge": 3
             },
             {
                 "id": 5,
-                "badge": "Add Toggle Active API"
+                "badge": 3
             },
             {
                 "id": 5,
@@ -3422,6 +3429,7 @@
     {
         "id": 180,
         "ticket": "FLPG-19864",
+        "icon": 14,
         "sprintid": 11,
         "title": "Design Spike (MGJ Decoupling)",
         "members": [
@@ -3434,6 +3442,7 @@
     {
         "id": 181,
         "ticket": "FLPG-19866",
+        "icon": 14,
         "sprintid": 11,
         "title": "Design Sketch - Component Manager Performance",
         "members": [

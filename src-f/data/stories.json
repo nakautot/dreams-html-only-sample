@@ -337,5 +337,243 @@
                 "badge": 3
             }
         ]
+    },
+    {
+        "id": 27,
+        "ticket": "FLPG-19706",
+        "icon": 11,
+        "sprintid": 3,
+        "title": "Tomball ISD, TX Course will not continue past the introduction screen",
+        "members": [
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 7,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "ticket": "FLPG-19646",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "News & Info Page - Remove White Space",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "ticket": "FLPG-19644",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Departments - Add Gray Search Stripe",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 4,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "ticket": "FLPG-19643",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Buildings - Add Gray Search Stripe",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "ticket": "FLPG-19640",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Groups Page - Change Show Archived to Show Inactive",
+        "members": [
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 8,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "ticket": "FLPG-19639",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Groups Page - Remove White Space",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "ticket": "FLPG-19638",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Add Frontline Flavicon to Browser Tab",
+        "members": [
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 8,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "ticket": "FLPG-19624",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Implement Routes for PG User List- more details",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "ticket": "FLPG-19564",
+        "icon": 11,
+        "sprintid": 3,
+        "title": "News & Info doesn’t display items where the start date is today in the grid or on MGJ\n",
+        "members": [
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "ticket": "FLPG-17464",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Add New User to PG",
+        "members": [
+            {
+                "id": 8,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "ticket": "FLPG-17463",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "View Detailed User Info",
+        "members": [
+            {
+                "id": 7,
+                "badge": 3
+            },
+            {
+                "id": 2,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "ticket": "FLPG-17462",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Create link to 'Add in Staff Directory' ",
+        "members": [
+            {
+                "id": 8,
+                "badge": 3
+            },
+            {
+                "id": 1,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "ticket": "FLPG-9970",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Support Rich Text entry for Essay type questions",
+        "members": [
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 7
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "ticket": "FLPG-9591",
+        "icon": 14,
+        "sprintid": 3,
+        "title": "Theres no visual cue to the end user for the recorded resource in LD",
+        "members": [
+            {
+                "id": 6,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
     }
 ]

@@ -8,4 +8,9 @@
     "order": 2,
     "name":"SM5F",
     "current":false
+},{
+    "id": 3,
+    "order": 3,
+    "name":"SM4F",
+    "current":false
 }]

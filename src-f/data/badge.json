@@ -1,0 +1,91 @@
+[{
+    "id":1,
+    "badge":"Senior",
+    "icon":"⭐",
+    "description":"Tracks and Evaluates members"
+},{
+    "id":2,
+    "badge":"QA",
+    "icon":"🔍",
+    "description":"Assigned to prioritize test case creation and testing"
+},{
+    "id":3,
+    "badge":"Dev",
+    "icon":"🔧",
+    "description":"Assigned to prioritize Development, fixing and support"
+},{
+    "id":4,
+    "badge":"Perf Testing",
+    "icon":"📏",
+    "description":"Assess and Plan for app performance"
+},{
+    "id":5,
+    "badge":"Scrum Master",
+    "icon":"💖",
+    "description":"Directs the team to completing goals and removes blockers"
+},{
+    "id":6,
+    "badge":"Current Sprint",
+    "icon":"🚀",
+    "description":"indicates that this is the current sprint"
+},{
+    "id":7,
+    "badge":"Root Cause Analysis",
+    "icon":"🏥",
+    "description":"Identify the main cause of the defect"
+},{
+    "id":8,
+    "badge":"Test Case Creator",
+    "icon":"🚨",
+    "description":"Ensures that all scenarios are covered"
+},{
+    "id":9,
+    "badge":"Deployment",
+    "icon":"🔨",
+    "description":"Responsible for preparing the release plan and doing the release"
+},{
+    "id":10,
+    "badge":"Deployment Tester",
+    "icon":"👀",
+    "description":"Responsible for testing RCs on stage and advising to proceed or not with th release"
+},{
+    "id":11,
+    "badge":"Bug",
+    "icon": "🐛",
+    "description":"Issue that made it to Production environment"
+},{
+    "id":12,
+    "badge":"Done",
+    "icon": "✅",
+    "description":"Completed"
+},{
+    "id":13,
+    "badge":"Not Done",
+    "icon": "❎",
+    "description":"Not completed"
+},{
+    "id":14,
+    "badge":"Story",
+    "icon": "🎟",
+    "description":"Feature Requests"
+},{
+    "id":15,
+    "badge":"Support Request",
+    "icon": "🚧",
+    "description":"Change requests from CS"
+}, {
+    "id":16,
+    "badge":"Task",
+    "icon": "🙋‍♂️",
+    "description":"Work outside of the sprint goals"
+}, {
+    "id":17,
+    "badge":"Tech Debt",
+    "icon": "💳",
+    "description":"Lingering work to improve the app"
+}, {
+    "id":18,
+    "badge":"MVP",
+    "icon": "🥇",
+    "description":"Awarded to members who contributed the most in the sprint"
+}]

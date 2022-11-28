@@ -1,0 +1,45 @@
+.header {
+    padding-top: 15px;
+}
+
+.member {
+    display: inline-block;
+    margin-right: 10px;
+    width: 80px;
+}
+
+.story {
+    display: inline-block;
+    margin-right: 10px;
+    width: 255px;
+}
+
+.story-icon {
+    font-size: 70px;
+}
+
+.tasks {
+    font-size: 20px;
+}
+
+.tasks .mui-divider {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.badges {
+    text-align: right;
+    cursor: context-menu;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.mui-col-md-2.mui--text-right {
+    font-weight: bolder;
+}
+
+.story-title {
+    font-size: xx-small;
+}

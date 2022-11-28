@@ -729,5 +729,166 @@
                 "badge": 3
             }
         ]
+    },
+    {
+        "id": 52,
+        "ticket": "FLPG-19257",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Update database from the solution section",
+        "members": [
+            {
+                "id": 5,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 3
+            },
+            {
+                "id": 1,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "ticket": "FLPG-19258",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Create sidebar link to react Administration > PG User Info",
+        "members": [
+            {
+                "id": 7,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "ticket": "FLPG-19254",
+        "icon": 16,
+        "sprintid": 5,
+        "title": "Eternia 6/SM1D: Pre-Release Testing",
+        "members": [
+            {
+                "id": 7,
+                "badge": 2
+            },
+            {
+                "id": 7,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 55,
+        "ticket": "FLPG-17526",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Building List User Search Modal Refactor",
+        "members": [
+            {
+                "id": 7,
+                "badge": 3
+            },
+            {
+                "id": 1,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "ticket": "FLPG-18551",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Create News & Info View page in react",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 3,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "ticket": "FLPG-19259",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Investigate all needed api for PG User INfo",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 3,
+                "badge": 7
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "ticket": "FLPG-17460",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Create Page Shell",
+        "members": [
+            {
+                "id": 7,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "ticket": "FLPG-19260",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Create Table for Users on PG User Info react page",
+        "members": [
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 8,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "ticket": "FLPG-17461",
+        "icon": 14,
+        "sprintid": 5,
+        "title": "Display User Info",
+        "members": [
+            {
+                "id": 4,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
     }
 ]

@@ -18,4 +18,9 @@
     "order": 4,
     "name":"SM3F",
     "current":false
+},{
+    "id": 5,
+    "order": 5,
+    "name":"SM2F",
+    "current":false
 }]

@@ -1077,5 +1077,173 @@
                 "badge": 3
             }
         ]
+    },
+    {
+        "id": 73,
+        "ticket": "FLPG-18514",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Add a Back button to escape LD",
+        "members": [
+            {
+                "id": 5,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "ticket": "FLPG-18666",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Validations for Add News and Info",
+        "members": [
+            {
+                "id": 7,
+                "badge": 3
+            },
+            {
+                "id": 2,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "ticket": "FLPG-18667",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Design Sketch: Collaborative Video Rubric",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "ticket": "FLPG-18513",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Allow parts of the LCR License to be turned on in Licenses",
+        "members": [
+            {
+                "id": 1,
+                "badge": 2
+            },
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 3,
+                "badge": 7
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "ticket": "FLPG-18353",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Edit and Delete News & Info",
+        "members": [
+            {
+                "id": 7,
+                "badge": 3
+            },
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "ticket": "FLPG-18588",
+        "icon": 14,
+        "sprintid": 7,
+        "title": "Polishes and Cleanup",
+        "members": [
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 80,
+        "ticket": "FLPG-18701",
+        "icon": 11,
+        "sprintid": 7,
+        "title": "X button for input must clear text when click",
+        "members": [
+            {
+                "id": 3,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 81,
+        "ticket": "FLPG-18508",
+        "icon": 17,
+        "sprintid": 7,
+        "title": "Resource Library - Remove Credentials, Keys, and Secrets",
+        "members": [
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
     }
 ]

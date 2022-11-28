@@ -28,4 +28,9 @@
     "order": 6,
     "name":"SM1F",
     "current":false
+},{
+    "id": 7,
+    "order": 7,
+    "name":"ES6F",
+    "current":false
 }]

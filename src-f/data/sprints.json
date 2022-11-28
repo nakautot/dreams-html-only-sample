@@ -23,4 +23,9 @@
     "order": 5,
     "name":"SM2F",
     "current":false
+},{
+    "id": 6,
+    "order": 6,
+    "name":"SM1F",
+    "current":false
 }]

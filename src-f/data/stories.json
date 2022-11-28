@@ -575,5 +575,159 @@
                 "badge": 3
             }
         ]
+    },
+    {
+        "id": 42,
+        "ticket": "FLPG-19563",
+        "icon": 14,
+        "sprintid": 4,
+        "title": "change the CourseUsageRepost_… to CourseUsageReport",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "ticket": "FLPG-19440",
+        "icon": 14,
+        "sprintid": 4,
+        "title": "Add Field Rubric in Edit Page",
+        "members": [
+            {
+                "id": 4,
+                "badge": 3
+            },
+            {
+                "id": 2,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "ticket": "FLPG-19416",
+        "icon": 14,
+        "sprintid": 4,
+        "title": "MGJ Polish",
+        "members": [
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "ticket": "FLPG-19415",
+        "icon": 14,
+        "sprintid": 4,
+        "title": "Determine to do in Rubric Designer epic",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "ticket": "FLPG-19414",
+        "icon": 14,
+        "sprintid": 4,
+        "title": "Implement Routes for PG User List",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "ticket": "FLPG-19413",
+        "icon": 14,
+        "sprintid": 4,
+        "title": "Site Config polishes",
+        "members": [
+            {
+                "id": 7,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "ticket": "FLPG-19358",
+        "icon": 14,
+        "sprintid": 4,
+        "title": " Groups Information page/Add Member pop up",
+        "members": [
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 4,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "ticket": "FLPG-19356",
+        "icon": 17,
+        "sprintid": 4,
+        "title": "CRITICAL-Unrestricted file upload in Learning Designer",
+        "members": [
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 50,
+        "ticket": "FLPG-19355",
+        "icon": 17,
+        "sprintid": 4,
+        "title": "CRITICAL-Thumbnail upload allows unrestricted file upload",
+        "members": [
+            {
+                "id": 7,
+                "badge": 3
+            },
+            {
+                "id": 1,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 51,
+        "ticket": "FLPG-19032",
+        "icon": 14,
+        "sprintid": 4,
+        "title": "Investigate FLPG-18464",
+        "members": [
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
     }
 ]

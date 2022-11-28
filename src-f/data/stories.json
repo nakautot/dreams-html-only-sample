@@ -1245,5 +1245,148 @@
                 "badge": 3
             }
         ]
+    },
+    {
+        "id": 82,
+        "ticket": "FLPG-10290",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Change CC-> RL API call from LD",
+        "members": [
+            {
+                "id": 5,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 3
+            },
+            {
+                "id": 5,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 83,
+        "ticket": "FLPG-18352",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Add News & Info",
+        "members": [
+            {
+                "id": 7,
+                "badge": 3
+            },
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 3,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 84,
+        "ticket": "FLPG-18351",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Group Member list Get/Add/Remove",
+        "members": [
+            {
+                "id": 1,
+                "badge": 3
+            },
+            {
+                "id": 3,
+                "badge": 2
+            }
+        ]
+    },
+    {
+        "id": 85,
+        "ticket": "FLPG-18354",
+        "icon": 17,
+        "sprintid": 8,
+        "title": "News & Info APIs",
+        "members": [
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 3,
+                "badge": 3
+            },
+            {
+                "id": 3,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 86,
+        "ticket": "FLPG-17756",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "News & Info List Page",
+        "members": [
+            {
+                "id": 3,
+                "badge": 2
+            },
+            {
+                "id": 4,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 87,
+        "ticket": "FLPG-18400",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "UI/UX Polishes on Site-Config",
+        "members": [
+            {
+                "id": 2,
+                "badge": 2
+            },
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 3
+            },
+            {
+                "id": 6,
+                "badge": 3
+            }
+        ]
+    },
+    {
+        "id": 88,
+        "ticket": "FLPG-18453",
+        "icon": 14,
+        "sprintid": 8,
+        "title": "Groups Edit Info",
+        "members": [
+            {
+                "id": 3,
+                "badge": 2
+            },
+            {
+                "id": 8,
+                "badge": 3
+            }
+        ]
     }
 ]

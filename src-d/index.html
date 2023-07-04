@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Sample external picker
+    <!--form id="form1" method="post" action="google.omc"-->
+        <div>id</div>
+        <div><input type="text" id="RemoteSysID" value="1245"/></div>
+        <div>title</div>
+        <div><input type="text" id="Title" value="super"/></div>
+        <div>description</div>
+        <div><input type="text" id="Description" value="mario"/></div>
+        <div>RLResource</div>
+        <div><input type="text" id="RLResource" value="false"/></div>
+        <div>Thumbnail</div>
+        <div><input type="text" id="Thumbnail" value="brothers"/></div>
+
+        <button id="sub" onclick="window.pickStepArtifact(); return false;">Apply</button>
+    <!--/form-->
+    <script>
+    		var customXMLHttpRequest = (function (jwtoken) {
+            function getXMLHttpRequest(method, url, async){
+                var xmlHttpRequest = new XMLHttpRequest();
+                xmlHttpRequest.open(method, url, async);
+                xmlHttpRequest.setRequestHeader('Authorization', 'Bearer ' + jwtoken);
+                return xmlHttpRequest;
+            }
+            return getXMLHttpRequest;
+        })('Your token');
+        
+        window.pickStepArtifact = function () {
+        	var searchParams = new URLSearchParams(window.location.search);
+            var token = searchParams.get("token");
+            var action = searchParams.get("callback");
+            var formData = new FormData();
+            
+            var customXMLHttpRequest = (function (jwtoken) {
+                function getXMLHttpRequest(method, url, async){
+                    var xmlHttpRequest = new XMLHttpRequest();
+                    xmlHttpRequest.open(method, url, async);
+                    xmlHttpRequest.setRequestHeader('Authorization', 'Bearer ' + jwtoken);
+                    xmlHttpRequest.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
+                    return xmlHttpRequest;
+                }
+                return getXMLHttpRequest;
+                })(token);
+            
+            var RemoteSysID = document.getElementById("RemoteSysID").value;
+            var Title = document.getElementById("Title").value;
+            var Description = document.getElementById("Description").value;
+            var RLResource = document.getElementById("RLResource").value;
+            var Thumbnail = document.getElementById("Thumbnail").value;
+            
+            var xmlHttpRequest = customXMLHttpRequest('post',action,true);
+            xmlHttpRequest.send(JSON.stringify({RemoteSysID,Title,Description,RLResource,Thumbnail}));
+        }
+    </script>
+</body>
+</html>

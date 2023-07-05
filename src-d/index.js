@@ -63,6 +63,8 @@
                     document.querySelector(`#step-${uid} #urlx`).value = response.url;
                     that.dispatchEvent(new Event('change'));
                 })
+                .catch(function(){that.dispatchEvent(new Event('change'))})
+                .finally(function(){document.getElementById(`step-${uid}`).close();})
             }
         }
     });
